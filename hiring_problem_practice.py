@@ -1,3 +1,21 @@
+"""
+Simulates a hiring process for n candidates.
+
+Uses the optimal rule: reject first  n/e candidates, then pick the next better-than-seen.
+
+Repeats this over many trials.
+
+Computes the proportion of times the best candidate was selected.
+
+Intuition
+Rejecting the first ∼ 37%
+∼37% lets you calibrate: you get a sense of how good the candidates are.
+
+Then you use this information to act when someone better comes along.
+
+It balances exploration (learning) and exploitation (choosing).
+"""
+
 import random
 
 def candidate_selection_problem(n=100, trials=10000):
