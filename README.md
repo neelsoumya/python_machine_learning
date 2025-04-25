@@ -4,6 +4,12 @@
 
 Practicals for teaching machine learning in Python
 
+## Installation
+
+```R
+pip install -r requirements.txt
+```
+
 ## Files
 
 `hiring_problem_practice.py` Python script to practice simulations. How many candidates to interview before hiring
