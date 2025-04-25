@@ -20,6 +20,10 @@ https://github.com/neelsoumya/python_machine_learning/blob/main/classses_objects
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/hiring_problem_practice.py
 
+`game_of_life.ipynb`: Game of Life (GoL) in Python
+
+https://github.com/neelsoumya/python_machine_learning/blob/main/game_of_life.ipynb
+
 ## Contact
 
 Soumya Banerjee
