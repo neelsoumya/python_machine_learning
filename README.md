@@ -24,6 +24,12 @@ https://github.com/neelsoumya/python_machine_learning/blob/main/hiring_problem_p
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/game_of_life.ipynb
 
+
+`puzzle_number_problem.py`: Python program to solve a puzzle from H. Dudeney's Canterbury's Puzzles
+
+https://github.com/neelsoumya/python_machine_learning/blob/main/puzzle_number_problem.py
+
+
 ## Contact
 
 Soumya Banerjee
