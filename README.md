@@ -37,6 +37,12 @@ https://github.com/neelsoumya/python_machine_learning/blob/main/game_of_life.ipy
 https://github.com/neelsoumya/python_machine_learning/blob/main/puzzle_number_problem.py
 
 
+
+`data_munging_plotting.py`: Loading data, doing data munging and plotting data
+
+https://github.com/neelsoumya/python_machine_learning/blob/main/data_munging_plotting.py
+
+
 ## Contact
 
 Soumya Banerjee
