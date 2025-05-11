@@ -42,6 +42,9 @@ https://github.com/neelsoumya/python_machine_learning/blob/main/puzzle_number_pr
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/data_munging_plotting.py
 
+`gradient_descent.py`: Explanation of gradient descent to minimize a differentiable function 
+
+https://github.com/neelsoumya/python_machine_learning/blob/main/gradient_descent.py
 
 ## Contact
 
