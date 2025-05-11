@@ -29,10 +29,11 @@ cost_vals = J(theta_vals)
 plt.figure(figsize=(10, 6))
 plt.plot(theta_vals, cost_vals, label=r'$J(\theta) = (\theta - 3)^2$')
 plt.scatter(theta_history, J(np.array(theta_history)), color='red', zorder=5)
-for i in range(len(theta_history)-1):
-    plt.annotate('', xy=(theta_history[i+1], J(theta_history[i+1])),
-                 xytext=(theta_history[i], J(theta_history[i])),
-                 arrowprops=dict(arrowstyle='->', color='red'))
+
+#for i in range(len(theta_history)-1):
+#    plt.annotate('', xy=(theta_history[i+1], J(theta_history[i+1])),
+#                 xytext=(theta_history[i], J(theta_history[i])),
+#                 arrowprops=dict(arrowstyle='->', color='red'))
 
 plt.title('Gradient Descent on $J(\\theta) = (\\theta - 3)^2$')
 plt.xlabel(r'$\theta$')
