@@ -46,6 +46,12 @@ https://github.com/neelsoumya/python_machine_learning/blob/main/data_munging_plo
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/gradient_descent.py
 
+
+`backprop.py`: Explanation of backprop
+
+https://github.com/neelsoumya/python_machine_learning/blob/main/backprop.py
+
+
 ## Contact
 
 Soumya Banerjee
