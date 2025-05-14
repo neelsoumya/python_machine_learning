@@ -18,6 +18,9 @@ pip install -r requirements.txt
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/calling_functions.py
 
+`dictionary.py`: Dictionary in Python
+
+https://github.com/neelsoumya/python_machine_learning/blob/main/dictionary.py
 
 `classses_objects.ipynb`: Notebook to demonstrate classes and objects in Python
 
