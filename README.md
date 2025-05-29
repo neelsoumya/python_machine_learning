@@ -54,6 +54,9 @@ https://github.com/neelsoumya/python_machine_learning/blob/main/gradient_descent
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/backprop.py
 
+`singlcecell_unsupervised.ipynb`: IPython notebook for applying unsupervised machine learning to biological data (single-cell data)
+
+https://github.com/neelsoumya/python_machine_learning/blob/main/singlcecell_unsupervised.ipynb
 
 ## Contact
 
