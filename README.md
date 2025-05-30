@@ -58,6 +58,10 @@ https://github.com/neelsoumya/python_machine_learning/blob/main/backprop.py
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/singlcecell_unsupervised.ipynb
 
+`EHR_data_unsupervised_learning.ipynb`: Applying unsupervised machine learning to EHR data
+
+https://github.com/neelsoumya/python_machine_learning/blob/main/EHR_data_unsupervised_learning.ipynb
+
 ## Contact
 
 Soumya Banerjee
