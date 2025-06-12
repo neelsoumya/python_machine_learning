@@ -62,6 +62,10 @@ https://github.com/neelsoumya/python_machine_learning/blob/main/singlcecell_unsu
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/EHR_data_unsupervised_learning.ipynb
 
+`pca_when_not_to_do.ipynb`: When *not* to apply PCA to data and how to apply tSNE
+
+https://github.com/neelsoumya/python_machine_learning/blob/main/pca_when_not_to_do.ipynb
+
 ## Contact
 
 Soumya Banerjee
