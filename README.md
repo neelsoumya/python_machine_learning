@@ -66,6 +66,10 @@ https://github.com/neelsoumya/python_machine_learning/blob/main/EHR_data_unsuper
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/pca_when_not_to_do.ipynb
 
+`normalising_data.ipynb`: Normalizing data
+
+https://github.com/neelsoumya/python_machine_learning/blob/main/normalising_data.ipynb
+
 ## Contact
 
 Soumya Banerjee
