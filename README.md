@@ -66,6 +66,10 @@ https://github.com/neelsoumya/python_machine_learning/blob/main/EHR_data_unsuper
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/pca_when_not_to_do.ipynb
 
+`PCA_movie_ratings.ipynb`: PCA and tSNE on movie ratings data
+
+https://github.com/neelsoumya/python_machine_learning/blob/main/PCA_movie_ratings.ipynb
+
 `normalising_data.ipynb`: Normalizing data
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/normalising_data.ipynb
