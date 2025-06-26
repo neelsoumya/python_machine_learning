@@ -26,6 +26,39 @@ PCA finds **new axes** (called **principal components**) that capture the maximu
 
 ---
 
+
+# Lecture Notes: Principal Component Analysis (PCA) for Biologists
+
+## 🧬 Overview
+
+Principal Component Analysis (PCA) is a **dimensionality reduction technique**. It transforms a large set of variables into a smaller one that still contains most of the information in the large set.
+
+It is widely used in biology for:
+
+* Gene expression analysis
+* Population genetics
+* Imaging data
+* Single-cell RNA-seq
+
+---
+
+## 🧠 Intuition
+
+Imagine you have a dataset with many variables (e.g. expression levels of 10,000 genes). PCA helps us:
+
+* Reduce the number of variables
+* Identify patterns
+* Remove noise
+* Visualize high-dimensional data
+
+PCA finds **new axes** (called **principal components**) that capture the maximum variance in the data.
+
+---
+
+## 📊 Key Concepts
+
+
+
 ## 📊 Key Concepts
 
 ### 1. **Variance**
@@ -33,10 +66,22 @@ PCA finds **new axes** (called **principal components**) that capture the maximu
 * Variance = how spread out the data is.
 * PCA finds directions (principal components) that maximize variance.
 
+Formula for variance of variable $x$:
+
+$$
+\text{Var}(x) = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2
+$$
+
 ### 2. **Covariance Matrix**
 
 * Tells us how variables vary together.
 * PCA uses this to find directions where the data varies the most.
+
+Covariance between variables $x$ and $y$:
+
+$$
+\text{Cov}(x, y) = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})
+$$
 
 ### 3. **Eigenvectors and Eigenvalues**
 
