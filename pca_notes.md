@@ -24,6 +24,43 @@ Imagine you have a dataset with many variables (e.g. expression levels of 10,000
 
 PCA finds **new axes** (called **principal components**) that capture the maximum variance in the data.
 
+*Step 1*: Center the data
+Subtract the mean so the data is centered at the origin.
+
+*Step 2*: Find the direction of maximum variance
+PCA finds a new axis (PC1) that goes through the direction where the data varies the most:
+
+
+Y-axis
+  |
+  |\        *
+  |  \*  *       *
+  |    \    *      *
+  |      \     *
+  |_______\_________________ X-axis
+         /
+        /
+    PC1 /
+
+*Step 3*: Project the data onto the new axes
+Each data point is now described by its position along PC1 and (optionally) PC2.
+
+Y-axis
+  |
+  |       .  .       .
+  |    .      .  .      .
+  |        .
+  |________________________ X-axis
+     <--- PC1 axis --->
+
+PC1 captures the most variance in the data.
+PC2 (perpendicular to PC1) captures the next most variance.
+
+*Summary*:
+
+PCA rotates the axes of your data so the greatest variation comes along the first principal components, allowing you to reduce dimensionality while keeping the most important information.
+
+
 ---
 
 
