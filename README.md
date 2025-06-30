@@ -74,7 +74,9 @@ https://github.com/neelsoumya/python_machine_learning/blob/main/PCA_movie_rating
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/normalising_data.ipynb
 
-`pca_notes.md`: PCA teaching notes
+`pca_notes.ipynb`: PCA teaching notes
+
+https://github.com/neelsoumya/python_machine_learning/blob/main/pca_notes.ipynb
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/pca_notes.md
 
