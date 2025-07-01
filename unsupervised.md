@@ -9,7 +9,6 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
 2. [Clustering Algorithms](#clustering-algorithms)
     - [K-Means Clustering](#k-means-clustering)
     - [Hierarchical Clustering](#hierarchical-clustering)
-    - [DBSCAN](#dbscan)
 3. [Dimensionality Reduction](#dimensionality-reduction)
     - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
     - [t-SNE and UMAP](#t-sne-and-umap)
