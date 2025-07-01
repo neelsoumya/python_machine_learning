@@ -51,6 +51,17 @@ The notebook [Single-Cell Unsupervised Analysis](https://github.com/neelsoumya/p
 
 This hands-on notebook is ideal for those interested in applying unsupervised learning to biological data.
 
+### Electronic healthcare records (EHR) data
+
+The notebook [EHR data analysis](https://github.com/neelsoumya/python_machine_learning/blob/main/EHR_data_unsupervised_learning.ipynb) demonstrates:
+
+- Loading EHR data
+- Preprocessing and quality control
+- Dimensionality reduction using PCA and t-SNE/UMAP
+- Clustering
+- Visualization of results in reduced dimensions
+
+
 ## Resources
 
 - More lecture notes and notebooks coming soon!
