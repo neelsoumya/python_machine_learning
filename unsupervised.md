@@ -35,7 +35,7 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 
 ---
 
-## Applications in Biology(#applications-in-biology)
+## Applications in Biology
 
 ### Single-Cell Analysis
 
