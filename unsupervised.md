@@ -21,7 +21,7 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
 
 ## Principal Component Analysis (PCA)
 
-- 📓 [Lecture Notes and Notebook on PCA]([@neelsoumya/python_machine_learning/files/pca_notes.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_notes.ipynb))
+- 📓 [Lecture Notes and Notebook on PCA](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_notes.ipynb)
 
 ---
 
