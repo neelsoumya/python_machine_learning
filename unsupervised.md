@@ -5,13 +5,13 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
 ## Table of Contents
 
 1. [Introduction to Unsupervised Learning](#introduction-to-unsupervised-learning)
-2. [Clustering Algorithms](#clustering-algorithms)
+2. [Normalization](#normalization)
+3. [Clustering Algorithms](#clustering-algorithms)
     - [K-Means Clustering](#k-means-clustering)
     - [Hierarchical Clustering](#hierarchical-clustering)
-3. [Dimensionality Reduction](#dimensionality-reduction)
+4. [Dimensionality Reduction](#dimensionality-reduction)
     - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
     - [t-SNE and UMAP](#t-sne-and-umap)
-4. [Normalization](#normalization)
 5. [Applications in Biology](#applications-in-biology)
 6. [Best Practices and Tips](#best-practices-and-tips)
 7. [Q&A and Further Reading](#qa-and-further-reading)
