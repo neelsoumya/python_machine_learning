@@ -35,6 +35,22 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 
 ---
 
+## Applications in Biology(#applications-in-biology)
+
+### Single-Cell Analysis
+
+Single-cell analysis is a powerful application of unsupervised machine learning in biology, enabling the exploration of cell diversity in complex tissues. This approach often involves clustering and dimensionality reduction techniques to reveal distinct cell populations based on their gene expression profiles.
+
+The notebook [Single-Cell Unsupervised Analysis](https://github.com/neelsoumya/python_machine_learning/blob/main/singlcecell_unsupervised.ipynb) demonstrates:
+
+- Loading real single-cell transcriptome data from 10x Genomics (PBMC 3K dataset)
+- Preprocessing and quality control
+- Dimensionality reduction using PCA and t-SNE/UMAP
+- Clustering with the Leiden algorithm
+- Visualization of results in reduced dimensions
+
+This hands-on notebook is ideal for those interested in applying unsupervised learning to biological data.
+
 ## Resources
 
 - More lecture notes and notebooks coming soon!
