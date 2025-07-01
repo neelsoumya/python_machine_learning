@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Practicals for teaching machine learning in Python
+Practicals for teaching machine learning in Python.
 
 ## Installation
 
@@ -11,6 +11,10 @@ pip install -r requirements.txt
 ```
 
 ## Files
+
+`unsupervised.md` has resources for teaching unsupervised machine learning
+
+https://github.com/neelsoumya/python_machine_learning/blob/main/unsupervised.md
 
 `data` folder has data files
 
