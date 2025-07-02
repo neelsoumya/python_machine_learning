@@ -13,8 +13,9 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
     - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
     - [t-SNE and UMAP](#t-sne-and-umap)
 5. [Applications in Biology](#applications-in-biology)
-6. [Best Practices and Tips](#best-practices-and-tips)
-7. [Q&A and Further Reading](#qa-and-further-reading)
+6. [Exercise: where PCA does better than tSNE](#exercise-where-PCA-does-better-than-tSNE)
+7. [Best Practices and Tips](#best-practices-and-tips)
+8. [Q&A and Further Reading](#qa-and-further-reading)
 
 ---
 
@@ -62,6 +63,14 @@ The notebook [EHR data analysis](https://github.com/neelsoumya/python_machine_le
 - Visualization of results in reduced dimensions
 
 
+## Exercise: where PCA does better than tSNE
+
+The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learning/blob/main/PCA_movie_ratings.ipynb) shows:
+
+- How to generate synthetic movie ratings
+- Preprocessing and quality control
+- Dimensionality reduction using PCA and t-SNE/UMAP
+- PCA does better than tSNE!
 ## Resources
 
 - More lecture notes and notebooks coming soon!
