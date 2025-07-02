@@ -31,6 +31,12 @@ pip install -r requirements.txt
 
 ## 📁 Files & Resources
 
+### Python Basics
+- [calling_functions.py](https://github.com/neelsoumya/python_machine_learning/blob/main/calling_functions.py): How to call and create functions in Python
+- [dictionary.py](https://github.com/neelsoumya/python_machine_learning/blob/main/dictionary.py): Dictionaries in Python
+- [classses_objects.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/classses_objects.ipynb): Classes and objects in Python
+
+
 ### Unsupervised Learning
 - [unsupervised.md](https://github.com/neelsoumya/python_machine_learning/blob/main/unsupervised.md): Resources for teaching unsupervised machine learning
 - [singlcecell_unsupervised.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/singlcecell_unsupervised.ipynb): Unsupervised ML on single-cell biological data
@@ -41,10 +47,6 @@ pip install -r requirements.txt
 - [pca_notes.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_notes.ipynb): PCA teaching notes
 - [pca_notes.md](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_notes.md): PCA teaching notes (markdown)
 
-### Python Basics
-- [calling_functions.py](https://github.com/neelsoumya/python_machine_learning/blob/main/calling_functions.py): How to call and create functions in Python
-- [dictionary.py](https://github.com/neelsoumya/python_machine_learning/blob/main/dictionary.py): Dictionaries in Python
-- [classses_objects.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/classses_objects.ipynb): Classes and objects in Python
 
 ### Machine Learning Notebooks
 - [hiring_problem_practice.py](https://github.com/neelsoumya/python_machine_learning/blob/main/hiring_problem_practice.py): Simulating the hiring problem
