@@ -1,3 +1,9 @@
+# Supervised Machine Learning
 
+## Teaching Resources
 
-https://github.com/neelsoumya/python_machine_learning/blob/main/linear_regression.ipynb
+This page contains resources for teaching supervised machine learning, including example notebooks and guides.
+
+- [Linear Regression Example Notebook](https://github.com/neelsoumya/python_machine_learning/files/linear_regression.ipynb)
+
+More resources will be added soon!
