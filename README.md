@@ -61,6 +61,13 @@ pip install -r requirements.txt
 
 ---
 
+### Other resources
+
+* https://github.com/intro-stat-learning/ISLP_labs/tree/stable
+
+* https://www.statlearning.com/resources-python
+  
+
 ## 📬 Contact
 
 **Soumya Banerjee**  
