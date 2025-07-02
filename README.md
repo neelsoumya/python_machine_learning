@@ -15,7 +15,7 @@ Practicals for teaching machine learning in Python.
 - [Files & Resources](#-files--resources)
   - [Unsupervised Learning](#unsupervised-learning)
   - [Python Basics](#python-basics)
-  - [Machine Learning Notebooks](#machine-learning-notebooks)
+  - [Supervised Machine Learning Notebooks](#machine-learning-notebooks)
   - [Data & Utilities](#data--utilities)
 - [Contact](#contact)
 
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 - [pca_notes.md](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_notes.md): PCA teaching notes (markdown)
 
 
-### Machine Learning Notebooks
+### Supervised Machine Learning Notebooks
 - [hiring_problem_practice.py](https://github.com/neelsoumya/python_machine_learning/blob/main/hiring_problem_practice.py): Simulating the hiring problem
 - [game_of_life.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/game_of_life.ipynb): Game of Life in Python
 - [puzzle_number_problem.py](https://github.com/neelsoumya/python_machine_learning/blob/main/puzzle_number_problem.py): Solving a puzzle from H. Dudeney's Canterbury's Puzzles
