@@ -49,6 +49,7 @@ pip install -r requirements.txt
 
 
 ### Supervised Machine Learning Notebooks
+- [supervised.md](https://github.com/neelsoumya/python_machine_learning/blob/main/supervised.md)
 - [hiring_problem_practice.py](https://github.com/neelsoumya/python_machine_learning/blob/main/hiring_problem_practice.py): Simulating the hiring problem
 - [game_of_life.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/game_of_life.ipynb): Game of Life in Python
 - [puzzle_number_problem.py](https://github.com/neelsoumya/python_machine_learning/blob/main/puzzle_number_problem.py): Solving a puzzle from H. Dudeney's Canterbury's Puzzles
