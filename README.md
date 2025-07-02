@@ -15,7 +15,7 @@ Practicals for teaching machine learning in Python.
 - [Files & Resources](#-files--resources)
   - [Unsupervised Learning](#unsupervised-learning)
   - [Python Basics](#python-basics)
-  - [Supervised Machine Learning Notebooks](#machine-learning-notebooks)
+  - [Supervised Machine Learning Notebooks](#supervised-machine-learning-notebooks)
   - [Data & Utilities](#data--utilities)
 - [Contact](#contact)
 
