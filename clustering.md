@@ -1,3 +1,20 @@
+## Table of Contents
+
+1. [Clustering Overview](#clustering-overview)
+2. [Hierarchical Clustering](#hierarchical-clustering)
+    - [Agglomerative (Bottom‑Up)](#agglomerative-bottomup)
+    - [Divisive (Top‑Down)](#divisive-topdown)
+    - [Dendrogram](#dendrogram)
+    - [Practical](#practical)
+3. [K‑Means Clustering](#k-means-clustering)
+    - [Algorithm Steps](#algorithm-steps)
+    - [Pseudocode](#pseudocode)
+    - [Pros & Cons](#pros--cons)
+4. [Choosing Between Methods](#choosing-between-methods)
+    - [Hierarchical Clustering](#hierarchical-clustering-1)
+    - [K‑Means](#k-means)
+5. [References & Further Reading](#references--further-reading)
+
 ## Clustering Overview
 
 Clustering is an **unsupervised learning** technique used to group similar data points together. Unlike classification, there are no pre-defined labels. Instead, the algorithm tries to discover structure in the data by maximizing intra-cluster similarity and minimizing inter-cluster similarity.
