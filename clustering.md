@@ -48,6 +48,11 @@ Hierarchical clustering builds a tree (dendrogram) of clusters using either a **
 
 ---
 
+#### Practical
+
+See the example notebook: [Hierarchical Clustering in Python](https://github.com/neelsoumya/python_machine_learning/files/hierarchical_clustering_python.ipynb)
+
+
 ## K‑Means Clustering
 
 K‑Means is a **partitional** clustering algorithm that aims to partition the data into **K** disjoint clusters.
