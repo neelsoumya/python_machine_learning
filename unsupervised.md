@@ -38,7 +38,8 @@ Here is a picture I took of a pavement in Cambridge the day after Valentine's Da
 
 [PCA intuition](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues)
 
-Given the data below, how should we reduce the number of features and/or visualize it?
+Given the data below, how should we reduce the number of features and/or visualize it? This is an **unsupervised** machine learning problem.
+
 
 | State       | Murder (per 100k) | Robbery (per 100k) | Population     |
 |-------------|-------------------|--------------------|----------------|
@@ -50,7 +51,7 @@ Given the data below, how should we reduce the number of features and/or visuali
 | Pennsylvania| 4.8               | 22.9               | 12,801,989     |
 
 
-Importantly, we are not trying to predict anything. For example, say in the data below we can try to predict the number of people who moved to that state last year.
+Importantly, we are not trying to predict anything. For example, say in the data below we can try to predict the number of people who moved to that state last year. This is a **supervised** machine learning problem.
 
 | State        | Murder (per 100k) | Robbery (per 100k) | Population   | People Who Moved (per 100k) |
 |--------------|-------------------|--------------------|--------------|-----------------------------|
