@@ -50,6 +50,18 @@ Given the data below, how should we reduce the number of features and/or visuali
 | Pennsylvania| 4.8               | 22.9               | 12,801,989     |
 
 
+Importantly, we are not trying to predict anything. For example, say in the data below we can try to predict the number of people who moved to that state last year.
+
+| State        | Murder (per 100k) | Robbery (per 100k) | Population   | People Who Moved (per 100k) |
+|--------------|-------------------|--------------------|--------------|-----------------------------|
+| California   | 9.1               | 45.3               | 39,512,223   | 5,400                       |
+| Texas        | 7.8               | 38.6               | 28,995,881   | 4,100                       |
+| Florida      | 5.9               | 31.7               | 21,477,737   | 6,200                       |
+| New York     | 3.4               | 26.4               | 19,453,561   | 3,800                       |
+| Illinois     | 6.4               | 35.1               | 12,671,821   | 2,900                       |
+| Pennsylvania | 4.8               | 22.9               | 12,801,989   | 2,500                       |
+
+
 ## Normalization
 
 Normalization is a crucial preprocessing step in machine learning that ensures each feature contributes equally to analysis by scaling data to have a mean of 0 and a standard deviation of 1. This is especially important for algorithms sensitive to the scale of input data.
