@@ -53,6 +53,9 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 
 ## Clustering algorithms
 
+- 📓 [Lecture Notes and Notebook on Hierarchical Clustering and k-means](https://github.com/neelsoumya/python_machine_learning/blob/main/clustering.md)
+
+
 ## Applications in Biology
 
 ### Single-Cell Analysis
