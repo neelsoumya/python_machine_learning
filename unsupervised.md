@@ -6,12 +6,12 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
 
 1. [Introduction to Unsupervised Learning](#introduction-to-unsupervised-learning)
 2. [Normalization](#normalization)
-3. [Clustering Algorithms](#clustering-algorithms)
-    - [K-Means Clustering](#k-means-clustering)
-    - [Hierarchical Clustering](#hierarchical-clustering)
-4. [Dimensionality Reduction](#dimensionality-reduction)
+3. [Dimensionality Reduction](#dimensionality-reduction)
     - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
     - [t-SNE and UMAP](#t-sne-and-umap)
+4. [Clustering Algorithms](#clustering-algorithms)
+    - [K-Means Clustering](#k-means-clustering)
+    - [Hierarchical Clustering](#hierarchical-clustering)
 5. [Applications in Biology](#applications-in-biology)
 6. [Exercise: where PCA does better than tSNE](#exercise-where-PCA-does-better-than-tSNE)
 7. [Best Practices and Tips](#best-practices-and-tips)
@@ -32,6 +32,8 @@ Here is a picture I took of a pavement in Cambridge the day after Valentine's Da
 
 ![Rose after Valentine's Day](images/rose_after_valentines_day.png)
 
+
+
 ## Normalization
 
 Normalization is a crucial preprocessing step in machine learning that ensures each feature contributes equally to analysis by scaling data to have a mean of 0 and a standard deviation of 1. This is especially important for algorithms sensitive to the scale of input data.
@@ -41,12 +43,15 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 ---
 
 
+
 ## Principal Component Analysis (PCA)
 
 - 📓 [Lecture Notes and Notebook on PCA](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_notes.ipynb)
 - 📓 [When *not* to do PCA, and alternatives (tSNE, clustering, heatmaps)](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_when_not_to_do.ipynb)
 
 ---
+
+## Clustering algorithms
 
 ## Applications in Biology
 
