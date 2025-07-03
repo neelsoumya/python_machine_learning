@@ -36,7 +36,7 @@ Here is a picture I took of a pavement in Cambridge the day after Valentine's Da
 
 ### Resources
 
-[PCA intution](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues)
+[PCA intuition](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues)
 
 ## Normalization
 
