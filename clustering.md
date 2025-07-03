@@ -1,3 +1,44 @@
+## Clustering Overview
+
+Clustering is an **unsupervised learning** technique used to group similar data points together. Unlike classification, there are no pre-defined labels. Instead, the algorithm tries to discover structure in the data by maximizing intra-cluster similarity and minimizing inter-cluster similarity.
+
+**Key points:**
+- **Objective:** Identify natural groupings in the data.  
+- **Applications:** Customer segmentation, image compression, anomaly detection, document clustering.
+
+---
+
+## Hierarchical Clustering
+
+Hierarchical clustering builds a tree (dendrogram) of clusters using either a **bottom‑up** (agglomerative) or **top‑down** (divisive) approach.
+
+### Agglomerative (Bottom‑Up)
+
+1. **Initialization:** Start with each data point as its own cluster.  
+2. **Merge Steps:**  
+   - Compute distance between every pair of clusters.  
+   - Merge the two closest clusters.  
+   - Update the distance matrix.  
+3. **Termination:** Repeat until all points are in a single cluster or a stopping criterion (e.g., desired number of clusters) is met.
+
+### Divisive (Top‑Down)
+
+1. **Initialization:** Start with all data points in one cluster.  
+2. **Split Steps:**  
+   - Choose a cluster to split (e.g., the one with highest variance).  
+   - Partition it into two sub-clusters using a simple method (e.g., k‑means with k=2).  
+3. **Termination:** Continue splitting until each point is its own cluster or the desired number of clusters is reached.
+
+### Dendrogram
+
+```text
+        [ALL POINTS]
+         /      \
+    Cluster A   Cluster B
+     /    \       /    \
+    …      …     …      …
+```
+
 
 - **Cutting the tree** at different levels yields different numbers of clusters.
 - **Linkage methods** determine how distance between clusters is computed:
