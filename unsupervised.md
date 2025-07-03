@@ -38,6 +38,18 @@ Here is a picture I took of a pavement in Cambridge the day after Valentine's Da
 
 [PCA intuition](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues)
 
+Given the data below, how should we reduce the number of features and/or visualize it?
+
+| State       | Murder (per 100k) | Robbery (per 100k) | Population     |
+|-------------|-------------------|--------------------|----------------|
+| California  | 9.1               | 45.3               | 39,512,223     |
+| Texas       | 7.8               | 38.6               | 28,995,881     |
+| Florida     | 5.9               | 31.7               | 21,477,737     |
+| New York    | 3.4               | 26.4               | 19,453,561     |
+| Illinois    | 6.4               | 35.1               | 12,671,821     |
+| Pennsylvania| 4.8               | 22.9               | 12,801,989     |
+
+
 ## Normalization
 
 Normalization is a crucial preprocessing step in machine learning that ensures each feature contributes equally to analysis by scaling data to have a mean of 0 and a standard deviation of 1. This is especially important for algorithms sensitive to the scale of input data.
