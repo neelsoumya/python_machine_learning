@@ -94,4 +94,4 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 - PCA does better than tSNE!
 ## Resources
 
-- More lecture notes and notebooks coming soon!
+- [ISLP book](https://www.statlearning.com/)
