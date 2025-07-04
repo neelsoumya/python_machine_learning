@@ -19,6 +19,13 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
 
 ---
 
+## Learning Objectives
+
+* Day 1 (half-day): introduction and normalization
+* Day 2 (half-day): PCA and tSNE
+* Day 3 (half-day): Clustering
+* Day 4 (half-day): Practical applications
+
 
 ## Introduction to Unsupervised Learning
 
