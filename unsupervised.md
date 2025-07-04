@@ -58,6 +58,10 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 
 ## Applications in Biology
 
+📓 [Applications of Unsupervised Learning in Biology](https://github.com/neelsoumya/python_machine_learning/blob/main/applications_unsupervised.md
+)
+
+
 ## Resources
 
 - [ISLP book](https://www.statlearning.com/)
