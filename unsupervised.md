@@ -13,9 +13,8 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
     - [K-Means Clustering](#k-means-clustering)
     - [Hierarchical Clustering](#hierarchical-clustering)
 5. [Applications in Biology](#applications-in-biology)
-6. [Exercise: where PCA does better than tSNE](#exercise-where-PCA-does-better-than-tSNE)
-7. [Best Practices and Tips](#best-practices-and-tips)
-8. [Q&A and Further Reading](#qa-and-further-reading)
+6. [Best Practices and Tips](#best-practices-and-tips)
+7. [Q&A and Further Reading](#qa-and-further-reading)
 
 ---
 
