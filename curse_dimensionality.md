@@ -16,14 +16,14 @@
 
 ### Volume in High Dimensions
 
-- In \([-1,1]^n\), most volume lives near the corners; an inscribed ball is tiny.  
-  \[
+- In $\([-1,1]^n\)$, most volume lives near the corners; an inscribed ball is tiny.  
+ $ \[
     V_n \;=\; \frac{\pi^{n/2}}{\Gamma\!\bigl(\tfrac n2+1\bigr)},
   \]
   \[
     V_{10}\approx2.5\times10^{-3},\quad V_{50}\approx10^{-28}.
-  \]
-- Although \(V_n>0\) for each finite \(n\), \(\lim_{n\to\infty}V_n=0\): for any \(\varepsilon>0\), large enough \(n\) gives \(V_n<\varepsilon\).
+  \] $
+- Although $\(V_n>0\)$ for each finite $\(n\)$, $\(\lim_{n\to\infty}V_n=0\)$: for any $\(\varepsilon>0\)$, large enough $\(n\)$ gives $\(V_n<\varepsilon\)$.
 
 ![Volume in High Dimensions](hyperball_corners.png)
 
@@ -31,10 +31,10 @@
 
 ## Implications for Distance
 
-- Pairwise distances between random points in high‑\(n\) concentrate:
-  \[
+- Pairwise distances between random points in high‑$\(n\)$ concentrate:
+ $ \[
     \frac{\max d - \min d}{\min d}\;\to\;0.
-  \]
+  \] $
 - “Nearest” vs “farthest” becomes less distinct.  
 - A fixed‑radius ball contains almost no points.
 
@@ -56,8 +56,8 @@
 ### Demo: Distance Concentration
 
 **Exercise:**  
-- Sample 1,000 points in \(\mathbb{R}^n\) with \(n = 2, 10, 50, 200\).  
-- Compute min and max Euclidean distances; plot \((\max-\min)/\min\) vs. \(n\).
+- Sample 1,000 points in $\(\mathbb{R}^n\)$ with $\(n = 2, 10, 50, 200\)$.  
+- Compute min and max Euclidean distances; plot $\((\max-\min)/\min\)$ vs. $\(n\)$.
 
 ```python
 import numpy as np
