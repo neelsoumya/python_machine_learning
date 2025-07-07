@@ -1,5 +1,5 @@
 
-# Unsupervised Learning in High Dimensions
+# Unsupervised Learning in High Dimensions and the Curse of Dimensionality
 
 ---
 
@@ -117,6 +117,8 @@ for n in [2, 10, 50, 200]:
 1. Run k‑Means with $k=10$; report inertia and 2‑D PCA plot colored by cluster.
 2. Compute t‑SNE embedding (perplexity=30); plot and compare cluster separation.
 3. Write a short reflection: how did the curse manifest? how did t‑SNE help?
+
+[Hands-on Lab curse of dimensionality](https://github.com/neelsoumya/python_machine_learning/blob/main/lab_mnist_curse_dimensionality.ipynb)
 
 ---
 
