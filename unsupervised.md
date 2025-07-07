@@ -12,8 +12,9 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
 4. [Clustering Algorithms](#clustering-algorithms)
     - [K-Means Clustering](#k-means-clustering)
     - [Hierarchical Clustering](#hierarchical-clustering)
-5. [Applications in Biology](#applications-in-biology)
-6. [Q&A and Further Reading](#qa-and-further-reading)
+5. [Curse of dimensionality](#curse-of-dimensionality) 
+6. [Applications in Biology](#applications-in-biology)
+7. [Q&A and Further Reading](#qa-and-further-reading)
 
 ---
 
@@ -53,6 +54,12 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 
 - 📓 [Lecture Notes and Notebook on Hierarchical Clustering and k-means](https://github.com/neelsoumya/python_machine_learning/blob/main/clustering.md)
 
+
+## Curse of dimensionality
+
+
+- 📓 [Lecture Notes and Notebook on Curse of Dimensionality]
+(https://github.com/neelsoumya/python_machine_learning/blob/main/curse_dimensionality.md)
 
 ## Applications in Biology
 
