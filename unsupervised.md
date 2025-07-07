@@ -1,4 +1,4 @@
-# Unsupervised Machine Learning: Table of Contents
+# Unsupervised Machine Learning
 
 Welcome to the Unsupervised Machine Learning module! This guide will help you navigate the key concepts and resources.
 
