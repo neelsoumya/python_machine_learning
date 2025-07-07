@@ -59,6 +59,8 @@
 - Sample 1,000 points in $\(\mathbb{R}^n\)$ with $\(n = 2, 10, 50, 200\)$.  
 - Compute min and max Euclidean distances; plot $\((\max-\min)/\min\)$ vs. $\(n\)$.
 
+[Demo of distance concentration](https://github.com/neelsoumya/python_machine_learning/blob/main/high_dimensions_pairwise_distances.ipynb)
+
 ```python
 import numpy as np
 
