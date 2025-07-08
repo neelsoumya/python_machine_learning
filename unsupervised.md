@@ -62,7 +62,7 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
    Explain the steps of hierarchical clustering, distinguish between agglomerative and divisive approaches, and interpret dendrograms.
 
 4. **Situations in which you would want to apply hierarchical clustering:**  
-   Discuss specific use cases—such as when the number of clusters is unknown or when a tree‑based representation is desired—where hierarchical clustering is advantageous.
+   Discuss specific use cases: such as when the number of clusters is unknown or when a tree‑based representation is desired—where hierarchical clustering is advantageous.
 
 ---
 
