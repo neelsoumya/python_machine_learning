@@ -21,36 +21,44 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
 
 ## Learning Objectives
 
-* Day 1 (half-day): introduction to unsupervised learning and normalization
+* Day 1 (half-day):
 
-Why normalization is required
+  1. introduction to unsupervised learning and normalization
 
-Basics of PCA
+  2. Why normalization is required
+
+  3. Basics of PCA
   
-* Day 2 (half-day): PCA and tSNE
+* Day 2 (half-day):
 
-Basic applications of PCA
+1. PCA and tSNE
 
-Basics of tSNE
+2. Basic applications of PCA
 
-Applications to data
+3. Basics of tSNE
 
-When not to apply PCA and tSNE
+4. Applications to data
+
+5. When *not* to apply PCA and tSNE
   
-* Day 3 (half-day): Clustering
+* Day 3 (half-day):
 
-Basics of k means
+  1. Clustering
 
-Basics of hierarchical clustering
+  2. Basics of k means
 
-Situations in which you would want to apply hierarchical clustering
+  3. Basics of hierarchical clustering
+
+  4. Situations in which you would want to apply hierarchical clustering
 
   
-* Day 4 (half-day): Practical applications
+* Day 4 (half-day):
 
-Curse of dimensionality
+1. Practical applications
 
-Practical applications of PCA, tSNE and hierarchical clustering to biological data
+2. Curse of dimensionality
+
+3. Practical applications of PCA, tSNE and hierarchical clustering to biological data
 
 
 
