@@ -31,15 +31,15 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
   
 * Day 2 (half-day):
 
-1. PCA and tSNE
+  1. PCA and tSNE
 
-2. Basic applications of PCA
+  2. Basic applications of PCA
 
-3. Basics of tSNE
+  3. Basics of tSNE
 
-4. Applications to data
+  4. Applications to data
 
-5. When *not* to apply PCA and tSNE
+  5. When *not* to apply PCA and tSNE
   
 * Day 3 (half-day):
 
@@ -54,11 +54,11 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
   
 * Day 4 (half-day):
 
-1. Practical applications
+  1. Practical applications
 
-2. Curse of dimensionality
+  2. Curse of dimensionality
 
-3. Practical applications of PCA, tSNE and hierarchical clustering to biological data
+  3. Practical applications of PCA, tSNE and hierarchical clustering to biological data
 
 
 
