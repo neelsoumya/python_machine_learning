@@ -4,26 +4,54 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
 
 ## Table of Contents
 
-1. [Introduction to Unsupervised Learning](#introduction-to-unsupervised-learning)
-2. [Normalization](#normalization)
-3. [Dimensionality Reduction](#dimensionality-reduction)
+1. [Learning Objectives](#learning-objectives)
+2. [Introduction to Unsupervised Learning](#introduction-to-unsupervised-learning)
+3. [Normalization](#normalization)
+4. [Dimensionality Reduction](#dimensionality-reduction)
     - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
     - [t-SNE and UMAP](#t-sne-and-umap)
-4. [Clustering Algorithms](#clustering-algorithms)
+5. [Clustering Algorithms](#clustering-algorithms)
     - [K-Means Clustering](#k-means-clustering)
     - [Hierarchical Clustering](#hierarchical-clustering)
-5. [Curse of dimensionality](#curse-of-dimensionality) 
-6. [Applications in Biology](#applications-in-biology)
-7. [Q&A and Further Reading](#qa-and-further-reading)
+6. [Curse of dimensionality](#curse-of-dimensionality) 
+7. [Applications in Biology](#applications-in-biology)
+8. [Q&A and Further Reading](#qa-and-further-reading)
 
 ---
 
 ## Learning Objectives
 
-* Day 1 (half-day): introduction and normalization
+* Day 1 (half-day): introduction to unsupervised learning and normalization
+
+Why normalization is required
+
+Basics of PCA
+  
 * Day 2 (half-day): PCA and tSNE
+
+Basic applications of PCA
+
+Basics of tSNE
+
+Applications to data
+
+When not to apply PCA and tSNE
+  
 * Day 3 (half-day): Clustering
+
+Basics of k means
+
+Basics of hierarchical clustering
+
+Situations in which you would want to apply hierarchical clustering
+
+  
 * Day 4 (half-day): Practical applications
+
+Curse of dimensionality
+
+Practical applications of PCA, tSNE and hierarchical clustering to biological data
+
 
 
 ## Introduction to Unsupervised Learning
@@ -55,11 +83,12 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 - 📓 [Lecture Notes and Notebook on Hierarchical Clustering and k-means](https://github.com/neelsoumya/python_machine_learning/blob/main/clustering.md)
 
 
-## Curse of dimensionality
 
+## Curse of dimensionality
 
 - 📓 [Lecture Notes and Notebook on Curse of Dimensionality]
 (https://github.com/neelsoumya/python_machine_learning/blob/main/curse_dimensionality.md)
+
 
 ## Applications in Biology
 
