@@ -39,7 +39,7 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 - PCA does better than tSNE!
 
 
-## Other exercise ideas
+## Other exercise ideas for hierarchical clustering and heatmaps
 
 ## 1. Gene Expression Microarray / RNA‑Seq Profiles
 
