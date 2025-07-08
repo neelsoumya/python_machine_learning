@@ -98,6 +98,10 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 ## Principal Component Analysis (PCA)
 
 - 📓 [Lecture Notes and Notebook on PCA](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_notes.ipynb)
+
+
+## tSNE
+
 - 📓 [Lecture Notes and Notebook on tSNE](https://github.com/neelsoumya/python_machine_learning/blob/main/tsne_simple.ipynb)
 - 📓 [When *not* to do PCA, and alternatives (tSNE, clustering, heatmaps)](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_when_not_to_do.ipynb)
 
