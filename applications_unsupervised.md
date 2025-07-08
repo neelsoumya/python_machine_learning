@@ -1,5 +1,9 @@
 ## Applications of Unsupervised Learning
 
+### Learning Objectives
+
+In this lesson, we will learn how to apply unsupervised learning to real world data.
+
 ### Single-Cell Analysis
 
 Single-cell analysis is a powerful application of unsupervised machine learning in biology, enabling the exploration of cell diversity in complex tissues. This approach often involves clustering and dimensionality reduction techniques to reveal distinct cell populations based on their gene expression profiles.
