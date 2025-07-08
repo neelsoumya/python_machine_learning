@@ -1,5 +1,28 @@
 ## Introduction to Unsupervised Learning
 
+## Learning Objectives
+
+By the end of this module, learners will be able to:
+
+* Define unsupervised learning and explain how it differs from supervised learning in terms of inputs, outputs, and goals.
+
+* Identify common unsupervised techniques, including clustering (e.g., k‑means, hierarchical) and dimensionality reduction (e.g., PCA), and describe when each is appropriate.
+
+* Discuss real‑world applications of unsupervised learning, such as customer segmentation, anomaly detection, and image compression.
+
+* Explain the role of unsupervised learning in exploratory data analysis and as a preprocessing step for downstream tasks.
+
+* Interpret principal component analysis (PCA) intuitively, including the meaning of eigenvectors and eigenvalues, to understand how PCA finds the directions of greatest variance in data.
+
+* Apply dimensionality reduction to a simple multivariate dataset (e.g., crime rates and population by state) to visualize high‑dimensional data in two or three dimensions.
+
+* Differentiate unsupervised from supervised problems by examining datasets and deciding whether the task is to uncover patterns versus predict a known target variable.
+
+* Articulate the value of unsupervised learning in uncovering hidden structure in unlabelled data and its importance as data complexity and volume grow.
+
+
+## Introduction
+
 Unsupervised learning is a branch of machine learning that deals with finding hidden patterns or intrinsic structures in data without the use of labeled responses. Unlike supervised learning, where the model learns from labeled data to predict outcomes, unsupervised learning works with input data that does not have any corresponding output variables. The primary goal is to explore the underlying structure, groupings, or features in the data.
 
 One of the most common applications of unsupervised learning is clustering, where the algorithm groups similar data points together based on their characteristics. This is particularly useful in scenarios such as customer segmentation, anomaly detection, and image compression. Another key technique is dimensionality reduction, which aims to reduce the number of variables under consideration, making it easier to visualize and interpret large datasets.
