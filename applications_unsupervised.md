@@ -44,6 +44,11 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 
 ## 1. Single‑Cell RNA‑Seq of Immune Cells
 
+[Exercise for loading single cell data and performing PCA and tSNE](https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_singlecell_pcatsne.ipynb)
+
+[Exercise for loading single cell data and using hierarchical clustering and heatmaps](https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_singlecell_clustering.ipynb)
+
+
 **Dataset Examples:**
 - **Human PBMC 10x Genomics** (public 68K PBMCs)  
 - **Tabula Muris** (mouse single‑cell atlas)  
@@ -55,10 +60,7 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 **Why Heatmaps?**
 - Easily visualize lineage relationships and activation states across hundreds to thousands of cells.
 
-[Exercise for loading single cell data and performing PCA and tSNE](https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_singlecell_pcatsne.ipynb)
 
-[Exercise for loading single cell data and using hierarchical clustering and heatmaps]
-(https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_singlecell_clustering.ipynb)
 ---
 
 
