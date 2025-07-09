@@ -69,6 +69,8 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 **Why Heatmaps?**
 - Easily visualize lineage relationships and activation states across hundreds to thousands of cells.
 
+[Exercise for loading single cell data and performing PCA and tSNE](https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_singlecell_pcatsne.ipynb)
+
 ---
 
 ## 3. Microbiome 16S rRNA OTU Tables
