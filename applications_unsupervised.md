@@ -41,22 +41,8 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 
 ## Other exercise ideas for hierarchical clustering and heatmaps
 
-## 1. Gene Expression Microarray / RNA‑Seq Profiles
 
-**Dataset Examples:**
-- **TCGA Breast Cancer** (e.g. BRCA RNA‑Seq counts)  
-- **GEO Series GSE2034** (lymph node metastasis in breast cancer)  
-
-**Problem:**
-- Cluster patient samples by overall expression pattern to uncover molecular subtypes.
-- Cluster genes to identify co‑expression modules (e.g. proliferation vs. immune signatures).
-
-**Why Heatmaps?**
-- Intuitive display of up‑/down‑regulated clusters of genes across patients.
-
----
-
-## 2. Single‑Cell RNA‑Seq of Immune Cells
+## 1. Single‑Cell RNA‑Seq of Immune Cells
 
 **Dataset Examples:**
 - **Human PBMC 10x Genomics** (public 68K PBMCs)  
@@ -70,6 +56,24 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 - Easily visualize lineage relationships and activation states across hundreds to thousands of cells.
 
 [Exercise for loading single cell data and performing PCA and tSNE](https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_singlecell_pcatsne.ipynb)
+
+[Exercise for loading single cell data and using hierarchical clustering and heatmaps]
+(https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_singlecell_clustering.ipynb)
+---
+
+
+## 2. Gene Expression Microarray / RNA‑Seq Profiles
+
+**Dataset Examples:**
+- **TCGA Breast Cancer** (e.g. BRCA RNA‑Seq counts)  
+- **GEO Series GSE2034** (lymph node metastasis in breast cancer)  
+
+**Problem:**
+- Cluster patient samples by overall expression pattern to uncover molecular subtypes.
+- Cluster genes to identify co‑expression modules (e.g. proliferation vs. immune signatures).
+
+**Why Heatmaps?**
+- Intuitive display of up‑/down‑regulated clusters of genes across patients.
 
 ---
 
