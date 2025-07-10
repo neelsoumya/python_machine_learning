@@ -84,7 +84,7 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
    Apply PCA, t‑SNE, and hierarchical clustering to biological datasets (e.g., gene expression or single‑cell data), interpret the results, and discuss biological insights gained.
 
 4. **Evaluating unsupervised learning methods**   
-
+   How to evaluate these techniques on single-cell, these are used to generate hypotheses. Motivations for next steps.
 
 
 
