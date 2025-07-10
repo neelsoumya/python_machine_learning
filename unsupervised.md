@@ -35,6 +35,7 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
 4. **Basics of PCA:**  
    Describe the core concepts of Principal Component Analysis (PCA), including how it reduces dimensionality by identifying directions of maximum variance.
 
+5. **Evaluating unsupervised learning methods**
    
 
 ---
@@ -81,6 +82,8 @@ Welcome to the Unsupervised Machine Learning module! This guide will help you na
 
 3. **Practical applications of PCA, t‑SNE and hierarchical clustering to biological data:**  
    Apply PCA, t‑SNE, and hierarchical clustering to biological datasets (e.g., gene expression or single‑cell data), interpret the results, and discuss biological insights gained.
+
+4. **Evaluating unsupervised learning methods**   
 
 
 
