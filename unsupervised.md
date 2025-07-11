@@ -1,6 +1,6 @@
 # Unsupervised Machine Learning
 
-Welcome to the Unsupervised Machine Learning module! This guide will help you navigate the key concepts and resources.
+Welcome to the Applied Unsupervised Machine Learning module! This guide will help you navigate the key concepts and resources.
 
 ## Table of Contents
 
