@@ -124,8 +124,7 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 
 ## Curse of dimensionality
 
-- 📓 [Lecture Notes and Notebook on Curse of Dimensionality]
-(https://github.com/neelsoumya/python_machine_learning/blob/main/curse_dimensionality.md)
+- 📓 [Lecture Notes and Notebook on Curse of Dimensionality](https://github.com/neelsoumya/python_machine_learning/blob/main/curse_dimensionality.md)
 
 
 ## Applications in Biology
