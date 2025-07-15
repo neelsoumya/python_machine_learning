@@ -80,7 +80,7 @@ Importantly, we are not trying to predict anything. For example, say in the data
 
 ## What PCA does to the data
 
-(PCA in 3D)[https://github.com/neelsoumya/python_machine_learning/blob/main/pca_intro_3D_view.ipynb]
+[PCA in 3D](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_intro_3D_view.ipynb)
 
 ## Summary
 
