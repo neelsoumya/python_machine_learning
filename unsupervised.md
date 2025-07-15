@@ -21,7 +21,8 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 
 ## Learning Objectives
 
-### Day 1 (half‑day)
+### Day 1 (half‑day) *Introduction to unsupervised learning*
+
 1. **Introduction to unsupervised learning and normalization:**  
    Understand the fundamental principles of unsupervised learning and recognize the role that data normalization plays in preparing datasets for analysis.
 
@@ -40,7 +41,8 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 
 ---
 
-### Day 2 (half‑day)
+### Day 2 (half‑day) *Basics of PCA and tSNE*
+
 1. **PCA and t‑SNE:**  
    Compare and contrast PCA and t‑Distributed Stochastic Neighbor Embedding (t‑SNE) as two popular techniques for dimensionality reduction and data visualization.
 
@@ -58,7 +60,8 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 
 ---
 
-### Day 3 (half‑day)
+### Day 3 (half‑day) *Basics of Clustering*
+
 1. **Clustering:**  
    Define clustering in the context of unsupervised learning and outline its importance in discovering groupings within data.
 
@@ -73,7 +76,8 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 
 ---
 
-### Day 4 (half‑day)
+### Day 4 (half‑day) *Practical applications (hands-on)*
+
 1. **Practical applications:**  
    Explore real‑world scenarios where unsupervised learning methods provide actionable insights across various domains.
 
