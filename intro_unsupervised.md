@@ -82,8 +82,23 @@ Importantly, we are not trying to predict anything. For example, say in the data
 
 [PCA in 3D](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_intro_3D_view.ipynb)
 
-## Summary
+
+## Lesson Summary: Introduction to Unsupervised Learning
 
 * Basics of unsupervised learning
 
 * Useful for visualization, outlier detection and making sense of your data if there are many features
+
+- **What it is:** Discover hidden patterns or groupings in unlabeled data, without predicting a specific target.  
+- **Key techniques:**  
+  - **Clustering** (e.g. k‑means, hierarchical) for grouping similar observations  
+  - **Dimensionality reduction** (e.g. PCA) for compressing and visualizing high‑dimensional data  
+- **Why it matters:**  
+  - Reveals structure in customer segmentation, anomaly detection, image compression, etc.  
+  - Serves as exploratory analysis and preprocessing for downstream tasks  
+- **Information bottleneck:** Forcing models (like autoencoders) to squeeze data through a narrow “latent code” uncovers the most essential features and removes noise  
+- **Hands‑on example:** Apply PCA to crime‑and‑population data by state to project three features into two dimensions for visualization  
+- **Unsupervised vs. supervised:**  
+  - **Unsupervised:** No labels, focus on pattern discovery  
+  - **Supervised:** With labels, focus on predicting a known outcome  
+
