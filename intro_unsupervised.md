@@ -85,7 +85,7 @@ Importantly, we are not trying to predict anything. For example, say in the data
 
 ## Activity: Playable version of PCA in browser
 
-![PCA in your browser](https://projector.tensorflow.org/)
+[PCA in your browser](https://projector.tensorflow.org/)
 
 
 ## Lesson Summary: Introduction to Unsupervised Learning
