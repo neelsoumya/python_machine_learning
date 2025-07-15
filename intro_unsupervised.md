@@ -83,6 +83,11 @@ Importantly, we are not trying to predict anything. For example, say in the data
 [PCA in 3D](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_intro_3D_view.ipynb)
 
 
+## Activity: Playable version of PCA in browser
+
+![PCA in your browser](https://projector.tensorflow.org/)
+
+
 ## Lesson Summary: Introduction to Unsupervised Learning
 
 * Basics of unsupervised learning
