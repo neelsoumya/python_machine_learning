@@ -76,3 +76,14 @@ Importantly, we are not trying to predict anything. For example, say in the data
 | New York     | 3.4               | 26.4               | 19,453,561   | 3,800                       |
 | Illinois     | 6.4               | 35.1               | 12,671,821   | 2,900                       |
 | Pennsylvania | 4.8               | 22.9               | 12,801,989   | 2,500                       |
+
+
+## What PCA does to the data
+
+(PCA in 3D)[https://github.com/neelsoumya/python_machine_learning/blob/main/pca_intro_3D_view.ipynb]
+
+## Summary
+
+* Basics of unsupervised learning
+
+* Useful for visualization, outlier detection and making sense of your data if there are many features
