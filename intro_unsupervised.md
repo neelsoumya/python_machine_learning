@@ -41,7 +41,7 @@ Here is a picture I took of a pavement in Cambridge the day after Valentine's Da
 
 ### Key Concept 
 
-[Information bottleneck](images/information_bottleneck.png)
+![Information bottleneck](images/information_bottleneck.png)
 
 In unsupervised learning, the __bottleneck concept__ refers to a deliberate architectural constraint in a model—typically an autoencoder—where information is compressed through a narrow intermediate representation, often called a latent code or embedding. The model is trained to reconstruct the input data after passing it through this low-dimensional bottleneck, forcing it to learn a compact and informative representation of the underlying structure of the data. Since there are no labels guiding the learning process, the model relies solely on reconstructing its input as accurately as possible, using only the limited information passed through this narrow channel. This compression encourages the model to capture essential features while discarding noise or redundancy.
 
