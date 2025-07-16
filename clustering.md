@@ -16,6 +16,78 @@
 5. [References & Further Reading](#references--further-reading)
 
 
+<!--
+If you’re authoring for a site you control,
+make sure you have MathJax loaded in the page’s <head>:
+-->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+# Within–Cluster Variation
+
+In **$K$**‑means clustering, we partition our $n$ observations into $K$ disjoint clusters
+$\{C_1, C_2, \dots, C_K\}$.  A “good” clustering is one for which the _within‑cluster variation_ is minimized.
+
+---
+
+## Objective
+
+Let
+
+$$
+W(C_k)
+$$
+
+be our measure of cluster‐$k$’s internal variation.  Then the $K$‑means objective is
+
+$$
+\min_{C_1,\dots,C_K}
+\;\sum_{k=1}^{K} W(C_k).
+$$
+
+> _In words_: partition the data into $K$ clusters so the **total** within‐cluster variation is as small as possible.
+
+---
+
+## Defining $W(C_k)$
+
+By far the most common choice is **squared Euclidean distance**.  If $C_k$ contains $|C_k|$ points
+$\{x_i\}_{i\in C_k}\subset\mathbb R^p$, define
+
+$$
+W(C_k)
+=
+\frac{1}{|C_k|}
+\sum_{\,i,i'\in C_k}
+\sum_{\,j=1}^{p}
+\bigl(x_{ij} - x_{i'j}\bigr)^{2}.
+$$
+
+Here:
+
+- $|C_k|$ is the number of points in cluster $k$.  
+- $x_{ij}$ is the $j$th coordinate of observation $i$.  
+- We sum over all pairs of observations in $C_k$, and over all feature‐indices $j=1,\dots,p$.
+
+Putting things together, the full optimization becomes:
+
+$$
+\min_{C_1,\dots,C_K}
+\sum_{k=1}^{K}
+\frac{1}{|C_k|}
+\sum_{\,i,i'\in C_k}
+\sum_{\,j=1}^{p}
+\bigl(x_{ij} - x_{i'j}\bigr)^{2}.
+$$
+
+
 ## Clustering Overview
 
 Clustering is an **unsupervised learning** technique used to group similar data points together. Unlike classification, there are no pre-defined labels. Instead, the algorithm tries to discover structure in the data by maximizing intra-cluster similarity and minimizing inter-cluster similarity.
