@@ -16,76 +16,6 @@
 5. [References & Further Reading](#references--further-reading)
 
 
-<!--
-If you’re authoring for a site you control,
-make sure you have MathJax loaded in the page’s <head>:
--->
-<script>
-window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-
-# Within–Cluster Variation
-
-In **$K$**‑means clustering, we partition our $n$ observations into $K$ disjoint clusters
-$\{C_1, C_2, \dots, C_K\}$.  A “good” clustering is one for which the _within‑cluster variation_ is minimized.
-
----
-
-## Objective
-
-Let
-
-$$
-W(C_k)
-$$
-
-be our measure of cluster‐$k$’s internal variation.  Then the $K$‑means objective is
-
-$$
-\min_{C_1,\dots,C_K}
-\;\sum_{k=1}^{K} W(C_k).
-$$
-
-> _In words_: partition the data into $K$ clusters so the **total** within‐cluster variation is as small as possible.
-
----
-
-## Defining $W(C_k)$
-
-By far the most common choice is **squared Euclidean distance**.  If $C_k$ contains $|C_k|$ points
-$\{x_i\}_{i\in C_k}\subset\mathbb R^p$, define
-
-$$
-W(C_k)
-=
-\frac{1}{|C_k|}
-\sum_{\,i,i'\in C_k}
-\sum_{\,j=1}^{p}
-\bigl(x_{ij} - x_{i'j}\bigr)^{2}.
-$$
-
-Here:
-
-- $|C_k|$ is the number of points in cluster $k$.  
-- $x_{ij}$ is the $j$th coordinate of observation $i$.  
-- We sum over all pairs of observations in $C_k$, and over all feature‐indices $j=1,\dots,p$.
-
-Putting things together, the full optimization becomes:
-
-$$
-\min_{C_1,\dots,C_K}
-\sum_{k=1}^{K}
-\frac{1}{|C_k|}
-\sum_{\,i,i'\in C_k}
-\sum_{\,j=1}^{p}
-\bigl(x_{ij} - x_{i'j}\bigr)^{2}.
-$$
 
 
 ## Clustering Overview
@@ -202,43 +132,71 @@ function KMeans(X, K, max_iters):
 ---
 
 
-# Within–Cluster Variation
+<!--
+If you’re authoring for a site you control,
+make sure you have MathJax loaded in the page’s <head>:
+-->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+### Within–Cluster Variation
 
 In **$K$**‑means clustering, we partition our $n$ observations into $K$ disjoint clusters
-$\{C_1, C_2, \dots, C_K\}$.  A “good” clustering is one for which the _within‑cluster variation_ is as small as possible.
+$\{C_1, C_2, \dots, C_K\}$.  A “good” clustering is one for which the _within‑cluster variation_ is minimized.
 
-## Objective
+---
+
+### Objective
 
 Let
 
-$$ W(C_k) $$
+$$
+W(C_k)
+$$
 
-be a measure of how much the observations in cluster $C_k$ differ from each other.  We then seek to solve
+be our measure of cluster‐$k$’s internal variation.  Then the $K$‑means objective is
 
-$$ \min_{C_1,\dots,C_K}   \sum_{k=1}^{K} W(C_k)\,.  \tag{1} $$
+$$
+\min_{C_1,\dots,C_K}
+\;\sum_{k=1}^{K} W(C_k).
+$$
 
-In words, we want to partition the data into $K$ clusters so that the total within‑cluster variation,
-summed over all clusters, is minimized.
+> _In words_: partition the data into $K$ clusters so the **total** within‐cluster variation is as small as possible.
 
-## Defining $W(C_k)$
+---
 
-A common choice is to use **squared Euclidean distance**.  Specifically, if $C_k$ contains $|C_k|$
-observations $\{\,x_i\}_{i\in C_k}$ in $\mathbb{R}^p$, define
+### Defining $W(C_k)$
 
-$$ W(C_k) \;=\; \frac{1}{|C_k|}  \sum_{\,i,i'\in C_k}  \;\sum_{\,j=1}^{p}  \bigl(x_{ij} - x_{i'j}\bigr)^{2}. \tag{2}
+By far the most common choice is **squared Euclidean distance**.  If $C_k$ contains $|C_k|$ points
+$\{x_i\}_{i\in C_k}\subset\mathbb R^p$, define
+
+$$
+W(C_k)
+=
+\frac{1}{|C_k|}
+\sum_{\,i,i'\in C_k}
+\sum_{\,j=1}^{p}
+\bigl(x_{ij} - x_{i'j}\bigr)^{2}.
 $$
 
 Here:
 
 - $|C_k|$ is the number of points in cluster $k$.  
 - $x_{ij}$ is the $j$th coordinate of observation $i$.  
-- We sum over all unordered pairs $(i,i')$ in the same cluster, and over all features $j=1,\dots,p$.
+- We sum over all pairs of observations in $C_k$, and over all feature‐indices $j=1,\dots,p$.
 
-Putting (1) and (2) together gives the standard $K$‑means optimization problem:
+Putting things together, the full optimization becomes:
 
 $$
 \min_{C_1,\dots,C_K}
-\sum_{k=1}^K
+\sum_{k=1}^{K}
 \frac{1}{|C_k|}
 \sum_{\,i,i'\in C_k}
 \sum_{\,j=1}^{p}
