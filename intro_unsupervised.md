@@ -84,6 +84,12 @@ Importantly, we are not trying to predict anything. For example, say in the data
 [PCA in 3D](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_intro_3D_view.ipynb)
 
 
+## PCA is lossy 
+
+PCA does lose some information. But it can capture some/most of the salient aspects of your data. This is shown using the notebook below:
+
+[PCA lossy notebook](https://github.com/neelsoumya/python_machine_learning/blob/main/PCA_image_lossy_concept.ipynb)
+
 ## Activity: Playable version of PCA in browser
 
 [PCA in your browser](https://projector.tensorflow.org/)
