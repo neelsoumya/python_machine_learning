@@ -204,6 +204,10 @@ $$
 $$
 
 
+### Exercise
+
+[IPython notebook for simple example of k-means](https://github.com/neelsoumya/python_machine_learning/blob/main/kmeans_simple.ipynb)
+
 ### Pros & Cons
 
 | Pros                      | Cons                                 |
