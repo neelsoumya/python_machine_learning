@@ -103,6 +103,14 @@ Repository: [https://github.com/neelsoumya/python_machine_learning](https://gith
 * https://github.com/intro-stat-learning/ISLP_labs/tree/stable
 
 * https://www.statlearning.com/resources-python
+
+* https://www.statlearning.com/
+
+* https://www.youtube.com/playlist?list=PLoROMvodv4rNHU1-iPeDRH-J0cL-CrIda
+
+* [Video lectures by the authors of the book Introduction to Statistical Learning in Python](https://www.youtube.com/playlist?list=PLoROMvodv4rNHU1-iPeDRH-J0cL-CrIda)
+
+
   
 
 ## 📬 Contact
