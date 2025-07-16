@@ -130,59 +130,61 @@ function KMeans(X, K, max_iters):
 ---
 
 
-### Within–Cluster Variation
+# Within–Cluster Variation
 
-In **\(K\)**‑means clustering, we partition our \(n\) observations into \(K\) disjoint clusters
-\(\{C_1, C_2, \dots, C_K\}\).  A “good” clustering is one for which the _within‑cluster variation_ is as small as possible.
+In **$K$**‑means clustering, we partition our $n$ observations into $K$ disjoint clusters
+$\{C_1, C_2, \dots, C_K\}$.  A “good” clustering is one for which the _within‑cluster variation_ is as small as possible.
 
-### Objective
+## Objective
 
 Let
-\[
-W(C_k)
-\]
-be a measure of how much the observations in cluster \(C_k\) differ from each other.  We then seek to solve
 
-\[
+$$
+W(C_k)
+$$
+
+be a measure of how much the observations in cluster $C_k$ differ from each other.  We then seek to solve
+
+$$
 \min_{C_1,\dots,C_K}
 \sum_{k=1}^{K} W(C_k)\,.
 \tag{1}
-\]
+$$
 
-In words, we want to partition the data into \(K\) clusters so that the total within‑cluster variation,
+In words, we want to partition the data into $K$ clusters so that the total within‑cluster variation,
 summed over all clusters, is minimized.
 
-### Defining \(W(C_k)\)
+## Defining $W(C_k)$
 
-A common choice is to use **squared Euclidean distance**.  Specifically, if \(C_k\) contains \(\lvert C_k\rvert\)
-observations \(\{\,x_i\}_{i\in C_k}\) in \(\mathbb{R}^p\), define
+A common choice is to use **squared Euclidean distance**.  Specifically, if $C_k$ contains $|C_k|$
+observations $\{\,x_i\}_{i\in C_k}$ in $\mathbb{R}^p$, define
 
-\[
+$$
 W(C_k)
 \;=\;
-\frac{1}{\lvert C_k\rvert}
+\frac{1}{|C_k|}
 \sum_{\,i,i'\in C_k}
 \;\sum_{\,j=1}^{p}
 \bigl(x_{ij} - x_{i'j}\bigr)^{2}.
 \tag{2}
-\]
+$$
 
 Here:
 
-- \(\lvert C_k\rvert\) is the number of points in cluster \(k\).  
-- \(x_{ij}\) is the \(j\)th coordinate of observation \(i\).  
-- We sum over all unordered pairs \((i,i')\) in the same cluster, and over all features \(j=1,\dots,p\).
+- $|C_k|$ is the number of points in cluster $k$.  
+- $x_{ij}$ is the $j$th coordinate of observation $i$.  
+- We sum over all unordered pairs $(i,i')$ in the same cluster, and over all features $j=1,\dots,p$.
 
-Putting (1) and (2) together gives the standard \(K\)‑means optimization problem:
+Putting (1) and (2) together gives the standard $K$‑means optimization problem:
 
-\[
+$$
 \min_{C_1,\dots,C_K}
 \sum_{k=1}^K
-\frac{1}{\lvert C_k\rvert}
+\frac{1}{|C_k|}
 \sum_{\,i,i'\in C_k}
 \sum_{\,j=1}^{p}
 \bigl(x_{ij} - x_{i'j}\bigr)^{2}.
-\]
+$$
 
 
 ### Pros & Cons
