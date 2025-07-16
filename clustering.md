@@ -121,6 +121,10 @@ function KMeans(X, K, max_iters):
     return cluster, μ
 ```
 
+### Animation
+
+![Animation of k-means](images/animation_kmeans.gif)
+
 ---
 
 ### Pros & Cons
