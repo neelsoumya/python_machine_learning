@@ -140,3 +140,7 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 ## Resources
 
 - [ISLP book](https://www.statlearning.com/)
+
+- https://www.statlearning.com/
+
+- [Video lectures by the authors of the book Introduction to Statistical Learning in Python](https://www.youtube.com/playlist?list=PLoROMvodv4rNHU1-iPeDRH-J0cL-CrIda)
