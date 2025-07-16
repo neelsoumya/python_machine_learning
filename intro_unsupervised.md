@@ -55,6 +55,7 @@ Because the computer must recreate the original image from that stripped‑down 
 
 Given the data below, how should we reduce the number of features and/or visualize it? This is an **unsupervised** machine learning problem.
 
+NOTE: The columns of this data are the *features*.
 
 | State       | Murder (per 100k) | Robbery (per 100k) | Population     |
 |-------------|-------------------|--------------------|----------------|
