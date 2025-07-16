@@ -125,6 +125,8 @@ function KMeans(X, K, max_iters):
 
 ![Animation of k-means](images/animation_kmeans.gif)
 
+<!-- created using kmeans_movie.py and kmeans_animation.ipynb -->
+
 ---
 
 ### Pros & Cons
