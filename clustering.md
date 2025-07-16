@@ -139,17 +139,11 @@ $\{C_1, C_2, \dots, C_K\}$.  A “good” clustering is one for which the _withi
 
 Let
 
-$$
-W(C_k)
-$$
+$$ W(C_k) $$
 
 be a measure of how much the observations in cluster $C_k$ differ from each other.  We then seek to solve
 
-$$
-\min_{C_1,\dots,C_K}
-\sum_{k=1}^{K} W(C_k)\,.
-\tag{1}
-$$
+$$ \min_{C_1,\dots,C_K}   \sum_{k=1}^{K} W(C_k)\,.  \tag{1} $$
 
 In words, we want to partition the data into $K$ clusters so that the total within‑cluster variation,
 summed over all clusters, is minimized.
@@ -159,14 +153,7 @@ summed over all clusters, is minimized.
 A common choice is to use **squared Euclidean distance**.  Specifically, if $C_k$ contains $|C_k|$
 observations $\{\,x_i\}_{i\in C_k}$ in $\mathbb{R}^p$, define
 
-$$
-W(C_k)
-\;=\;
-\frac{1}{|C_k|}
-\sum_{\,i,i'\in C_k}
-\;\sum_{\,j=1}^{p}
-\bigl(x_{ij} - x_{i'j}\bigr)^{2}.
-\tag{2}
+$$ W(C_k) \;=\; \frac{1}{|C_k|}  \sum_{\,i,i'\in C_k}  \;\sum_{\,j=1}^{p}  \bigl(x_{ij} - x_{i'j}\bigr)^{2}. \tag{2}
 $$
 
 Here:
