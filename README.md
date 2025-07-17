@@ -4,7 +4,7 @@
 
 ## 🧠 Introduction
 
-Practicals for teaching machine learning in Python.
+Resources for teaching machine learning in Python.
 
 ---
 
