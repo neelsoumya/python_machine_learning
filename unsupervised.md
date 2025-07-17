@@ -41,7 +41,7 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 
 ---
 
-### Day 2 (half‑day) *Basics of PCA and tSNE*
+### Day 2 (half‑day) *Basics of dimensionality reduction*
 
 1. **PCA and t‑SNE:**  
    Compare and contrast PCA and t‑Distributed Stochastic Neighbor Embedding (t‑SNE) as two popular techniques for dimensionality reduction and data visualization.
