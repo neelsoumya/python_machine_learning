@@ -94,6 +94,7 @@ Repository: [https://github.com/neelsoumya/python_machine_learning](https://gith
 
 ### Data & Utilities
 - `data/`: Folder containing data files
+- `slides/`: Folder containing slides
 
 ---
 
@@ -111,6 +112,9 @@ Repository: [https://github.com/neelsoumya/python_machine_learning](https://gith
 * [Video lectures by the authors of the book Introduction to Statistical Learning in Python](https://www.youtube.com/playlist?list=PLoROMvodv4rNHU1-iPeDRH-J0cL-CrIda)
 
 
+## Acknowledgements
+
+Martin van Ronge, Paul Fannon, Matt Castle and the Bioinformatics Facility Training Team.
   
 
 ## 📬 Contact
