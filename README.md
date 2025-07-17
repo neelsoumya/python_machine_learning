@@ -114,7 +114,7 @@ Repository: [https://github.com/neelsoumya/python_machine_learning](https://gith
 
 ## Acknowledgements
 
-Martin van Ronge, Paul Fannon, Matt Castle and the Bioinformatics Facility Training Team.
+Martin van Rongen, Paul Fannon, Matt Castle and the Bioinformatics Facility Training Team.
   
 
 ## 📬 Contact
