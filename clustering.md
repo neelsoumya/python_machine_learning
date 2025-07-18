@@ -88,6 +88,11 @@ Hierarchical clustering builds a tree (dendrogram) of clusters using either a **
   - **Average**: the average of all pairwise distances.  
   - **Ward**: the merge that minimizes the increase in total within‑cluster variance.  
 
+*Linkage function*
+
+![Linkage function](images/linkage_function.png)
+
+
 | Linkage Method        | How It Works                                                                                     | Intuition                                                                                       |
 |-----------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | **Single**            | Distance = minimum pairwise distance between points in the two clusters                         | “Friends‑of‑friends” – clusters join if any two points are close, yielding chain‑like clusters  |
