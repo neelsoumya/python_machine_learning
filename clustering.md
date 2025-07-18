@@ -275,7 +275,6 @@ $$
 ### Hierarchical Clustering
 
 - No need to pre-specify number of clusters (can decide by cutting dendrogram).
-- Computationally expensive for large datasets (O(n² log n)).
 - Produces a full hierarchy of clusters.
 
 ### K‑Means
