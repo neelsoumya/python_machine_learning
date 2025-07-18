@@ -74,7 +74,7 @@ Hierarchical clustering builds a tree (dendrogram) of clusters using either a **
 
 ![Euclidean distance](images/euclidean_distance.png)
 
-¡[Manhattan distance](images/manhattan_distance.png)
+![Manhattan distance](images/manhattan_distance.png)
 
 
 - **Linkage**  
