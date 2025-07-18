@@ -77,6 +77,35 @@ Hierarchical clustering builds a tree (dendrogram) of clusters using either a **
 | **Ward’s**            | Merge that minimizes the increase in total within‑cluster sum of squares (variance)             | Keeps clusters as tight and homogeneous as possible, often resulting in evenly sized groups     |
 
 
+### Single Linkage
+- **How it works**: Measures the distance between two clusters as the smallest distance between any single point in one cluster and any single point in the other.  
+- **Intuition**: “Friends‑of‑friends” clustering—if any two points (one from each cluster) are close, the clusters join. Can produce long, straggly chains of points.
+
+### Complete Linkage
+- **How it works**: Measures the distance between two clusters as the largest distance between any point in one cluster and any point in the other.  
+- **Intuition**: “Everyone must be close”—clusters merge only when all their points are relatively near each other, leading to tight, compact groups.
+
+### Average Linkage (UPGMA)
+- **How it works**: Takes the average of all pairwise distances between points in the two clusters.  
+- **Intuition**: A middle‑ground between single and complete linkage—balances the effect of very close and very far pairs by averaging them.
+
+### Weighted Linkage (WPGMA)
+- **How it works**: Similar to average linkage, but treats each cluster as a single entity by averaging the distance from each original cluster to the target cluster, regardless of cluster size.  
+- **Intuition**: Prevents larger clusters from dominating the average—gives each cluster equal say in how far apart they are.
+
+### Centroid Linkage
+- **How it works**: Computes the distance between the centroids (mean vectors) of the two clusters.  
+- **Intuition**: Clusters merge based on whether their “centers of mass” are close. Can sometimes lead to non‑monotonic merges if centroids shift oddly.
+
+### Median Linkage (WPGMC)
+- **How it works**: Uses the median point of each cluster instead of the mean when computing distance between clusters.  
+- **Intuition**: Like centroid linkage but more robust to outliers, since the median isn’t pulled by extreme values—though can also cause inversion issues.
+
+### Ward’s Method
+- **How it works**: At each step, merges the two clusters whose union leads to the smallest possible increase in total within‑cluster variance (sum of squared deviations).  
+- **Intuition**: Always chooses the merge that keeps clusters as tight and homogeneous as possible, often yielding groups of similar size and shape.
+
+
 ---
 
 #### Practical
