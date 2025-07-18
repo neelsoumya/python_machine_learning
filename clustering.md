@@ -66,6 +66,17 @@ Hierarchical clustering builds a tree (dendrogram) of clusters using either a **
   - **Complete linkage:** Maximum pairwise distance  
   - **Average linkage:** Average pairwise distance  
 
+| Linkage Method        | How It Works                                                                                     | Intuition                                                                                       |
+|-----------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| **Single**            | Distance = minimum pairwise distance between points in the two clusters                         | “Friends‑of‑friends” – clusters join if any two points are close, yielding chain‑like clusters  |
+| **Complete**          | Distance = maximum pairwise distance between points in the two clusters                         | “Everyone must be close” – only merge when all points are relatively near, producing compact clusters |
+| **Average (UPGMA)**   | Distance = average of all pairwise distances between points in the two clusters                 | Balances single and complete by averaging close and far pairs                                  |
+| **Weighted (WPGMA)**  | Distance = average of the previous cluster’s distance to the new cluster (equal weight per cluster) | Prevents large clusters from dominating, giving equal say to each cluster                      |
+| **Centroid**          | Distance = distance between the centroids (mean vectors) of the two clusters                    | Merges based on “centers of mass,” but centroids can shift non‑monotonically                   |
+| **Median (WPGMC)**    | Distance = distance between the medians of the two clusters                                      | More robust to outliers than centroid linkage, but can also invert dendrogram order            |
+| **Ward’s**            | Merge that minimizes the increase in total within‑cluster sum of squares (variance)             | Keeps clusters as tight and homogeneous as possible, often resulting in evenly sized groups     |
+
+
 ---
 
 #### Practical
