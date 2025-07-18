@@ -66,6 +66,18 @@ Hierarchical clustering builds a tree (dendrogram) of clusters using either a **
   - **Complete linkage:** Maximum pairwise distance  
   - **Average linkage:** Average pairwise distance  
 
+### Important Concepts
+
+- **Metric**  
+  The *metric* (or distance function or dissimilarity function) defines how you measure the distance between individual data points. Common choices include Euclidean, Manhattan (cityblock), or cosine distance. This metric determines the “raw” pairwise distances.
+
+- **Linkage**  
+  The *linkage* method defines how to compute the distance between two clusters based on the pairwise distances of their members. Examples:  
+  - **Single**: the distance between the closest pair of points (one from each cluster).  
+  - **Complete**: the distance between the farthest pair of points.  
+  - **Average**: the average of all pairwise distances.  
+  - **Ward**: the merge that minimizes the increase in total within‑cluster variance.  
+
 | Linkage Method        | How It Works                                                                                     | Intuition                                                                                       |
 |-----------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | **Single**            | Distance = minimum pairwise distance between points in the two clusters                         | “Friends‑of‑friends” – clusters join if any two points are close, yielding chain‑like clusters  |
