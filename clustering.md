@@ -70,7 +70,7 @@ Hierarchical clustering builds a tree (dendrogram) of clusters using either a **
 
 #### Practical
 
-See the example notebook: [Hierarchical Clustering in Python](https://github.com/neelsoumya/python_machine_learning/blob/main/hierarchical_clustering_python.ipynb)
+[Hierarchical Clustering in Python](https://github.com/neelsoumya/python_machine_learning/blob/main/hierarchical_clustering_python.ipynb)
 
 
 ## K‑Means Clustering
@@ -228,16 +228,14 @@ $$
 
 ### K‑Means
 
-- Efficient: O(n K d · T) where d is dimensionality, T is iterations.
 - Requires pre-specifying K.
-- Best for well-separated, spherical clusters.
 
 ---
 
 ## References & Further Reading
 
-- J. Han, M. Kamber, J. Pei. *Data Mining: Concepts and Techniques*.
-- B. Everitt, S. Landau, M. Leese, D. Stahl. *Cluster Analysis*.
+- [Introduction to Statistical Learning in Python (ISLP)](https://www.statlearning.com/)
+- [IPython notebook from ISLP book](https://github.com/intro-stat-learning/ISLP_labs/blob/stable/Ch12-unsup-lab.ipynb)
 - Scikit‑learn documentation:
   - [AgglomerativeClustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html)
   - [KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
