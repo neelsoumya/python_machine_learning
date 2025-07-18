@@ -279,7 +279,7 @@ $$
 
 | Pros                      | Cons                                 |
 |---------------------------|--------------------------------------|
-| Fast and scalable         | Must choose K in advance             |
+| Fast and scalable         | Must choose $K$ in advance             |
 | Easy to implement         | Sensitive to initialization          |
 | Works well on spherical data | Cannot capture non‑convex clusters |
 
@@ -294,7 +294,7 @@ $$
 
 ### K‑Means
 
-- Requires pre-specifying K.
+- Requires pre-specifying $K$.
 
 ---
 
