@@ -68,8 +68,14 @@ Hierarchical clustering builds a tree (dendrogram) of clusters using either a **
 
 ### Important Concepts
 
+
 - **Metric**  
   The *metric* (or distance function or dissimilarity function) defines how you measure the distance between individual data points. Common choices include Euclidean, Manhattan (cityblock), or cosine distance. This metric determines the “raw” pairwise distances.
+
+![Euclidean distance](images/euclidean_distance.png)
+
+¡[Manhattan distance](images/manhattan_distance.png)
+
 
 - **Linkage**  
   The *linkage* method defines how to compute the distance between two clusters based on the pairwise distances of their members. Examples:  
