@@ -70,7 +70,7 @@ Repository: [https://github.com/neelsoumya/python_machine_learning](https://gith
 - [calling_functions.py](https://github.com/neelsoumya/python_machine_learning/blob/main/calling_functions.py): How to call and create functions in Python
 - [dictionary.py](https://github.com/neelsoumya/python_machine_learning/blob/main/dictionary.py): Dictionaries in Python
 - [classses_objects.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/classses_objects.ipynb): Classes and objects in Python
-
+- [Free coursera course on Python basics](https://www.coursera.org/learn/python?specialization=python)
 
 ### Unsupervised Learning
 - [unsupervised.md](https://github.com/neelsoumya/python_machine_learning/blob/main/unsupervised.md): Resources for teaching unsupervised machine learning
