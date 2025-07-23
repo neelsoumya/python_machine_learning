@@ -64,7 +64,15 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 ---
 
 
-## 2. Gene Expression Microarray / RNA‑Seq Profiles
+## 2. Gapminder data
+
+[Notebook on Gapminder data](https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_gapminder_unsupervised.ipynb)
+
+## 3. Dragon data
+
+
+<!--
+## 4. Gene Expression Microarray / RNA‑Seq Profiles
 
 **Dataset Examples:**
 - **TCGA Breast Cancer** (e.g. BRCA RNA‑Seq counts)  
@@ -79,7 +87,7 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 
 ---
 
-## 3. Microbiome 16S rRNA OTU Tables
+## 5. Microbiome 16S rRNA OTU Tables
 
 **Dataset Examples:**
 - **Earth Microbiome Project** subset (human gut samples)  
@@ -94,7 +102,7 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 
 ---
 
-## 4. Proteomics / Phospho‑Proteomics
+## 6. Proteomics / Phospho‑Proteomics
 
 **Dataset Examples:**
 - **CPTAC** (Clinical Proteomic Tumor Analysis Consortium) breast or ovarian tumor proteomes  
@@ -109,7 +117,7 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 
 ---
 
-## 5. DNA Methylation Arrays
+## 7. DNA Methylation Arrays
 
 **Dataset Examples:**
 - **TCGA Lung Adenocarcinoma Methylation** (450K array)  
@@ -123,6 +131,8 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 - Capture large‑scale CpG methylation patterns; display hypo‑ vs. hyper‑methylated clusters.
 
 ---
+
+-->
 
 ### Tips for Effective Use
 
