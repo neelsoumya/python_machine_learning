@@ -115,6 +115,10 @@ Repository: [https://github.com/neelsoumya/python_machine_learning](https://gith
 
 * [Video lectures by the authors of the book Introduction to Statistical Learning in Python](https://www.youtube.com/playlist?list=PLoROMvodv4rNHU1-iPeDRH-J0cL-CrIda)
 
+* https://github.com/neelsoumya/public_supervised_machine_learning
+
+* https://github.com/neelsoumya/public_teaching_unsupervised_learning
+  
 
 ## Acknowledgements
 
