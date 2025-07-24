@@ -5,11 +5,12 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 ## Table of Contents
 
 1. [Learning Objectives](#learning-objectives)
-2. [Introduction to Unsupervised Learning](#introduction-to-unsupervised-learning)
-3. [Normalization](#normalization)
-4. [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
-5. [Curse of dimensionality](#curse-of-dimensionality) 
-6. [tSNE](#tSNE)
+2. [Installation instructions](#Installation)
+3. [Introduction to Unsupervised Learning](#introduction-to-unsupervised-learning)
+4. [Normalization](#normalization)
+5. [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
+6. [Curse of dimensionality](#curse-of-dimensionality) 
+7. [tSNE](#tSNE)
 5. [Clustering Algorithms](#clustering-algorithms)
     - [K-Means Clustering](#k-means-clustering)
     - [Hierarchical Clustering](#hierarchical-clustering)
@@ -90,6 +91,11 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 3. **Evaluating unsupervised learning methods**   
    How to evaluate these techniques on different kinds of data (single-cell data, electronic healthcare records, social sciences data): these are used to generate hypotheses. Motivations for next steps.
 
+
+
+## Installation
+
+- 📓 [Installation instructions](https://github.com/neelsoumya/python_machine_learning/blob/main/installation.md)
 
 
 ## Introduction to Unsupervised Learning
