@@ -17,7 +17,7 @@ Resources for teaching machine learning in Python.
   - [Python Basics](#python-basics)
   - [Supervised Machine Learning Notebooks](#supervised-machine-learning-notebooks)
   - [Data & Utilities](#data--utilities)
-- [Contact](#contact)
+- [Contact](#Contact)
 
 ---
 
@@ -128,7 +128,7 @@ or
 
 ## Acknowledgements
 
-Martin van Rongen, Paul Fannon, Matt Castle and the Bioinformatics Facility Training Team.
+Martin van Rongen, Vicki Hodgson, Hugo Tavares, Paul Fannon, Matt Castle and the Bioinformatics Facility Training Team.
   
 
 ## 📬 Contact
