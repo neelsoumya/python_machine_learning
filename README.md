@@ -102,6 +102,10 @@ or
 - [gradient_descent.py](https://github.com/neelsoumya/python_machine_learning/blob/main/gradient_descent.py): Gradient descent explanation
 - [backprop.py](https://github.com/neelsoumya/python_machine_learning/blob/main/backprop.py): Backpropagation explanation
 
+### Large-language models (LLMs)
+- [Introduction to LLMs](https://github.com/neelsoumya/intro_to_LMMs)
+
+
 ### Data & Utilities
 - `data/`: Folder containing data files
 - `slides/`: Folder containing slides
