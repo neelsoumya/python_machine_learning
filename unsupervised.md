@@ -49,13 +49,17 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 2. **Basic applications of PCA:**  
    Apply PCA to real datasets, interpret the resulting principal components, and discuss how these components can reveal underlying structure.
 
-3. **Basics of t‑SNE:**  
+3. **Curse of dimensionality:**  
+   Explain the concept of the curse of dimensionality and its implications for the performance and interpretability of clustering and dimensionality‑reduction algorithms.
+
+
+4. **Basics of t‑SNE:**  
    Explain how t‑SNE projects high‑dimensional data into two or three dimensions while preserving local similarities between points.
 
-4. **Applications to data:**  
+5. **Applications to data:**  
    Demonstrate the use of both PCA and t‑SNE on sample datasets to visualize clustering tendencies and uncover hidden patterns.
 
-5. **When *not* to apply PCA and t‑SNE:**  
+6. **When *not* to apply PCA and t‑SNE:**  
    Identify situations where PCA or t‑SNE may produce misleading results or be computationally infeasible, and propose alternative strategies.
 
 ---
@@ -71,8 +75,8 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 3. **Basics of hierarchical clustering:**  
    Explain the steps of hierarchical clustering, heatmaps, agglomerative approaches, and interpret dendrograms.
 
-4. **Situations in which you would want to apply hierarchical clustering:**  
-   Discuss specific use cases: such as when the number of clusters is unknown or when a tree‑based representation is desired—where hierarchical clustering is advantageous.
+4. **Deciding on your clustering approach:**  
+   Situations in which you would want to apply hierarchical clustering. Discuss specific use cases: such as when the number of clusters is unknown or when a tree‑based representation is desired—where hierarchical clustering is advantageous.
 
 ---
 
@@ -81,14 +85,11 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 1. **Practical applications:**  
    Explore real‑world scenarios where unsupervised learning methods provide actionable insights across various domains.
 
-2. **Curse of dimensionality:**  
-   Explain the concept of the curse of dimensionality and its implications for the performance and interpretability of clustering and dimensionality‑reduction algorithms.
-
-3. **Practical applications of PCA, t‑SNE and hierarchical clustering to biological data:**  
+2. **Practical applications of PCA, t‑SNE and hierarchical clustering to biological data:**  
    Apply PCA, t‑SNE, and hierarchical clustering to biological datasets (e.g., gene expression or single‑cell data), interpret the results, and discuss biological insights gained.
 
-4. **Evaluating unsupervised learning methods**   
-   How to evaluate these techniques on single-cell, these are used to generate hypotheses. Motivations for next steps.
+3. **Evaluating unsupervised learning methods**   
+   How to evaluate these techniques on different kinds of data (single-cell data, electronic healthcare records, social sciences data): these are used to generate hypotheses. Motivations for next steps.
 
 
 
@@ -113,6 +114,12 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 - 📓 [Lecture Notes and Notebook on PCA](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_notes.ipynb)
 
 
+## Curse of dimensionality
+
+- 📓 [Lecture Notes and Notebook on Curse of Dimensionality](https://github.com/neelsoumya/python_machine_learning/blob/main/curse_dimensionality.md)
+
+
+
 ## tSNE
 
 - 📓 [Lecture Notes and Notebook on tSNE](https://github.com/neelsoumya/python_machine_learning/blob/main/tsne_simple.ipynb)
@@ -124,11 +131,6 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 
 - 📓 [Lecture Notes and Notebook on Hierarchical Clustering and k-means](https://github.com/neelsoumya/python_machine_learning/blob/main/clustering.md)
 
-
-
-## Curse of dimensionality
-
-- 📓 [Lecture Notes and Notebook on Curse of Dimensionality](https://github.com/neelsoumya/python_machine_learning/blob/main/curse_dimensionality.md)
 
 
 ## Applications in Biology
