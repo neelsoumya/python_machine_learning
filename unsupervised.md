@@ -14,7 +14,7 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
     - [K-Means Clustering](#k-means-clustering)
     - [Hierarchical Clustering](#hierarchical-clustering)
 6. [Applications in Biology](#applications-in-biology)
-7. [Q&A and Further Reading](#qa-and-further-reading)
+7. [Resources](#Resources)
 
 ---
 
