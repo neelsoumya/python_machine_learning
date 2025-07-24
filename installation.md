@@ -19,9 +19,20 @@ Repository: [https://github.com/neelsoumya/python_machine_learning](https://gith
 ```
 
 ### 2. Install required Python packages
+
+
+```python
+!pip install numpy pandas keras tensorflow scikit-learn seaborn matplotlib
+```
+
+or
+
 ```python
 !pip install -r requirements.txt
 ```
+
+
+
 
 ### 3. (Optional) Download specific files directly from GitHub
 ```python
