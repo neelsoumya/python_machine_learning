@@ -9,13 +9,13 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 3. [Normalization](#normalization)
 4. [Dimensionality Reduction](#dimensionality-reduction)
     - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
+    - [Curse of dimensionality](#curse-of-dimensionality) 
     - [t-SNE and UMAP](#t-sne-and-umap)
 5. [Clustering Algorithms](#clustering-algorithms)
     - [K-Means Clustering](#k-means-clustering)
     - [Hierarchical Clustering](#hierarchical-clustering)
-6. [Curse of dimensionality](#curse-of-dimensionality) 
-7. [Applications in Biology](#applications-in-biology)
-8. [Q&A and Further Reading](#qa-and-further-reading)
+6. [Applications in Biology](#applications-in-biology)
+7. [Q&A and Further Reading](#qa-and-further-reading)
 
 ---
 
