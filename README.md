@@ -71,6 +71,9 @@ Repository: [https://github.com/neelsoumya/python_machine_learning](https://gith
 - [dictionary.py](https://github.com/neelsoumya/python_machine_learning/blob/main/dictionary.py): Dictionaries in Python
 - [classses_objects.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/classses_objects.ipynb): Classes and objects in Python
 - [Free coursera course on Python basics](https://www.coursera.org/learn/python?specialization=python)
+- [Introduction to Python Cambridge Bioinformatics Training Center](https://cambiotraining.github.io/data-analysis-in-r-and-python/)
+- [Data visualization in R](https://cambiotraining.github.io/dataviz-figdesign/index.html)
+
 
 ### Unsupervised Learning
 - [unsupervised.md](https://github.com/neelsoumya/python_machine_learning/blob/main/unsupervised.md): Resources for teaching unsupervised machine learning
