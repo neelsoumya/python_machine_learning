@@ -4,6 +4,28 @@
 
 In this lesson, we will learn how to apply unsupervised learning to real world data.
 
+
+
+### Single‑Cell RNA‑Seq of Immune Cells
+
+[Exercise for loading single cell data and performing PCA and tSNE](https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_singlecell_pcatsne.ipynb)
+
+[Exercise for loading single cell data and using hierarchical clustering and heatmaps](https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_singlecell_clustering.ipynb)
+
+
+**Dataset Examples:**
+- **Human PBMC 10x Genomics** (public 68K PBMCs)  
+- **Tabula Muris** (mouse single‑cell atlas)  
+
+**Problem:**
+- Hierarchically cluster cells (columns) based on their expression of marker genes to identify cell types and states.
+- Cluster genes (rows) to find gene modules defining each immune cell subtype.
+
+**Why Heatmaps?**
+- Easily visualize lineage relationships and activation states across hundreds to thousands of cells.
+
+
+
 ### Single-Cell Analysis
 
 Single-cell analysis is a powerful application of unsupervised machine learning in biology, enabling the exploration of cell diversity in complex tissues. This approach often involves clustering and dimensionality reduction techniques to reveal distinct cell populations based on their gene expression profiles.
@@ -17,6 +39,7 @@ The notebook [Single-Cell Unsupervised Analysis](https://github.com/neelsoumya/p
 - Visualization of results in reduced dimensions
 
 This hands-on notebook is ideal for those interested in applying unsupervised learning to biological data.
+
 
 ### Electronic healthcare records (EHR) data
 
@@ -39,36 +62,12 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 - PCA does better than tSNE!
 
 
-## Other exercise ideas for hierarchical clustering and heatmaps
 
-
-## 1. Single‑Cell RNA‑Seq of Immune Cells
-
-[Exercise for loading single cell data and performing PCA and tSNE](https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_singlecell_pcatsne.ipynb)
-
-[Exercise for loading single cell data and using hierarchical clustering and heatmaps](https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_singlecell_clustering.ipynb)
-
-
-**Dataset Examples:**
-- **Human PBMC 10x Genomics** (public 68K PBMCs)  
-- **Tabula Muris** (mouse single‑cell atlas)  
-
-**Problem:**
-- Hierarchically cluster cells (columns) based on their expression of marker genes to identify cell types and states.
-- Cluster genes (rows) to find gene modules defining each immune cell subtype.
-
-**Why Heatmaps?**
-- Easily visualize lineage relationships and activation states across hundreds to thousands of cells.
-
-
----
-
-
-## 2. Gapminder data
+### Gapminder data
 
 [Notebook on Gapminder data](https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_gapminder_unsupervised.ipynb)
 
-## 3. Dragon data
+### Dragon data
 
 
 <!--
