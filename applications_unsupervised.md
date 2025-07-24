@@ -67,7 +67,7 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 
 [Notebook on Gapminder data](https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_gapminder_unsupervised.ipynb)
 
-### Dragon data
+### 🐉 Dragon Data
 
 [Notebook for doing unsupervised learning on data on dragons!](https://github.com/neelsoumya/python_machine_learning/blob/main/exercise_dragons.ipynb)
 
