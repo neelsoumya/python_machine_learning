@@ -133,6 +133,8 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 
 -->
 
+
+<!--
 ### Tips for Effective Use
 
 1. **Pre‑processing:**
@@ -147,3 +149,5 @@ The notebook [movie ratings](https://github.com/neelsoumya/python_machine_learni
 
 4. **Annotation Tracks:**
    - Add metadata (e.g. phenotype, batch, cluster assignment) as colored sidebars for interpretation.
+
+-->
