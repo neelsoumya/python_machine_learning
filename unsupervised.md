@@ -15,7 +15,8 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
     - [K-Means Clustering](#k-means-clustering)
     - [Hierarchical Clustering](#hierarchical-clustering)
 6. [Applications in Biology](#applications-in-biology)
-7. [Resources](#Resources)
+7. [Acknowledgements](#Acknowledgements)
+8. [Resources](#Resources)
 
 ---
 
@@ -142,6 +143,11 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 
 📓 [Applications of Unsupervised Learning in Biology](https://github.com/neelsoumya/python_machine_learning/blob/main/applications_unsupervised.md
 )
+
+
+## Acknowledgements
+
+Martin van Rongen, Vicki Hodgson, Hugo Tavares, Paul Fannon, Matt Castle and the Bioinformatics Facility Training Team.
 
 
 ## Resources
