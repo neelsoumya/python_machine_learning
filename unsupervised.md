@@ -60,8 +60,6 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 5. **Applications to data:**  
    Demonstrate the use of both PCA and t‑SNE on sample datasets to visualize clustering tendencies and uncover hidden patterns.
 
-6. **When *not* to apply PCA and t‑SNE:**  
-   Identify situations where PCA or t‑SNE may produce misleading results or be computationally infeasible, and propose alternative strategies.
 
 ---
 
@@ -83,13 +81,17 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 
 ### Day 4 (half‑day) *Practical applications (hands-on)*
 
-1. **Practical applications:**  
+1. **When *not* to apply PCA and t‑SNE:**  
+   Identify situations where PCA or t‑SNE may produce misleading results or be computationally infeasible, and propose alternative strategies.
+
+
+2. **Practical applications:**  
    Explore real‑world scenarios where unsupervised learning methods provide actionable insights across various domains.
 
-2. **Practical applications of PCA, t‑SNE and hierarchical clustering to biological data:**  
+3. **Practical applications of PCA, t‑SNE and hierarchical clustering to biological data:**  
    Apply PCA, t‑SNE, and hierarchical clustering to biological datasets (e.g., gene expression or single‑cell data), interpret the results, and discuss biological insights gained.
 
-3. **Evaluating unsupervised learning methods**   
+4. **Evaluating unsupervised learning methods**   
    How to evaluate these techniques on different kinds of data (single-cell data, electronic healthcare records, social sciences data): these are used to generate hypotheses. Motivations for next steps.
 
 
@@ -129,7 +131,6 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 ## tSNE
 
 - 📓 [Lecture Notes and Notebook on tSNE](https://github.com/neelsoumya/python_machine_learning/blob/main/tsne_simple.ipynb)
-- 📓 [When *not* to do PCA, and alternatives (tSNE, clustering, heatmaps)](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_when_not_to_do.ipynb)
 
 ---
 
@@ -140,6 +141,8 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 
 
 ## Applications in Biology
+
+- 📓 [When *not* to do PCA, and alternatives (tSNE, clustering, heatmaps)](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_when_not_to_do.ipynb)
 
 📓 [Applications of Unsupervised Learning in Biology](https://github.com/neelsoumya/python_machine_learning/blob/main/applications_unsupervised.md
 )
