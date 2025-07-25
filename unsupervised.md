@@ -31,13 +31,14 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
    Explain why normalization is necessary to ensure that features with different scales do not unduly influence unsupervised learning algorithms.
 
 3. **Why dimensionality reduction is required**
+   
    Why you need dimensionality reduction. 
 
 
-4. **Basics of dimensionality reduction:**  
+5. **Basics of dimensionality reduction:**  
    Describe the core concepts of dimensionality reduction. Then describe Principal Component Analysis (PCA), including how it reduces dimensionality by identifying directions of maximum variance.
 
-5. **Evaluating unsupervised learning results**
+6. **Evaluating unsupervised learning results**
    How to check the performance and quality of your unsupervised learning results.
 
 ---
