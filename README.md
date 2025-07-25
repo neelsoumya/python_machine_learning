@@ -106,6 +106,11 @@ or
 - [Introduction to LLMs](https://github.com/neelsoumya/intro_to_LMMs)
 
 
+### Basic Statistics
+- [Introduction to statistics](https://github.com/neelsoumya/basic_statistics)
+- [Core statistics](https://cambiotraining.github.io/corestats/)
+
+
 ### Data & Utilities
 - `data/`: Folder containing data files
 - `slides/`: Folder containing slides
