@@ -144,7 +144,7 @@ Normalization is a crucial preprocessing step in machine learning that ensures e
 
 - 📓 [When *not* to do PCA, and alternatives (tSNE, clustering, heatmaps)](https://github.com/neelsoumya/python_machine_learning/blob/main/pca_when_not_to_do.ipynb)
 
-📓 [Applications of Unsupervised Learning in Biology](https://github.com/neelsoumya/python_machine_learning/blob/main/applications_unsupervised.md
+- 📓 [Applications of Unsupervised Learning in Biology](https://github.com/neelsoumya/python_machine_learning/blob/main/applications_unsupervised.md
 )
 
 
