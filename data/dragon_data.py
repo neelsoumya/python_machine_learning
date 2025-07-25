@@ -1,8 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+This script generates a synthetic dataset representing dragon characteristics, including features such as fire power, wing span, scale thickness, hoard size, age, color, and region. The generated data simulates 100 dragons with randomized attributes and saves the resulting dataset to a CSV file named 'dragon_data.csv'.
+
+Created on Fri Jul 25 13:26:54 2025
+
+@author: soumyabanerjee
+"""
+
 ############################
 # generate dragon data
 ############################
 
 import numpy as np
+import pandas as pd
 
 # Set random seed for reproducibility
 np.random.seed(42)
