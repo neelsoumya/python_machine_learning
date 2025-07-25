@@ -224,9 +224,7 @@ $\{C_1, C_2, \dots, C_K\}$.  A “good” clustering is one for which the _withi
 
 Let
 
-$$
-W(C_k)
-$$
+$$ W(C_k) $$
 
 be our measure of cluster‐$k$’s internal variation.  Then the $K$‑means objective is
 
@@ -275,13 +273,6 @@ $$
 
 [IPython notebook for simple example of k-means](https://github.com/neelsoumya/python_machine_learning/blob/main/kmeans_simple.ipynb)
 
-### Pros & Cons
-
-| Pros                      | Cons                                 |
-|---------------------------|--------------------------------------|
-| Fast and scalable         | Must choose $K$ in advance             |
-| Easy to implement         | Sensitive to initialization          |
-| Works well on spherical data | Cannot capture non‑convex clusters |
 
 ---
 
