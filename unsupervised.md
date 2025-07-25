@@ -39,6 +39,7 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
    Describe the core concepts of dimensionality reduction. Then describe Principal Component Analysis (PCA), including how it reduces dimensionality by identifying directions of maximum variance.
 
 6. **Evaluating unsupervised learning results**
+
    How to check the performance and quality of your unsupervised learning results.
 
 ---
