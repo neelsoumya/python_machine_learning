@@ -37,22 +37,21 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 4. **Basics of dimensionality reduction:**  
    Describe the core concepts of dimensionality reduction. Then describe Principal Component Analysis (PCA), including how it reduces dimensionality by identifying directions of maximum variance.
 
-5. **Evaluating unsupervised learning methods**
-   
+5. **Evaluating unsupervised learning results**
+   How to check the performance and quality of your unsupervised learning results.
 
 ---
 
 ### Day 2 (half‑day) *Basics of dimensionality reduction*
 
-1. **PCA and t‑SNE:**  
-   Compare and contrast PCA and t‑Distributed Stochastic Neighbor Embedding (t‑SNE) as two popular techniques for dimensionality reduction and data visualization.
-
-2. **Basic applications of PCA:**  
+1. **Basic applications of PCA:**  
    Apply PCA to real datasets, interpret the resulting principal components, and discuss how these components can reveal underlying structure.
 
-3. **Curse of dimensionality:**  
+2. **Curse of dimensionality:**  
    Explain the concept of the curse of dimensionality and its implications for the performance and interpretability of clustering and dimensionality‑reduction algorithms.
 
+3. **PCA and t‑SNE:**  
+   Compare and contrast PCA and t‑Distributed Stochastic Neighbor Embedding (t‑SNE) as two popular techniques for dimensionality reduction and data visualization.
 
 4. **Basics of t‑SNE:**  
    Explain how t‑SNE projects high‑dimensional data into two or three dimensions while preserving local similarities between points.
