@@ -61,7 +61,7 @@ or
 ---
 
 **How to use in Colab:**
-- Open a new notebook in Google Colab.
+- Open a new notebook in Google Colab (https://colab.research.google.com/).
 - Run the above commands in code cells.
 - You can now open and run any of the notebooks or scripts from the repository.
 
