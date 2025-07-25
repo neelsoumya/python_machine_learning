@@ -73,12 +73,12 @@ or
 ## 📁 Files & Resources
 
 ### Python Basics
-- [calling_functions.py](https://github.com/neelsoumya/python_machine_learning/blob/main/calling_functions.py): How to call and create functions in Python
-- [dictionary.py](https://github.com/neelsoumya/python_machine_learning/blob/main/dictionary.py): Dictionaries in Python
-- [classses_objects.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/classses_objects.ipynb): Classes and objects in Python
 - [Free coursera course on Python basics](https://www.coursera.org/learn/python?specialization=python)
 - [Introduction to Python Cambridge Bioinformatics Training Center](https://cambiotraining.github.io/data-analysis-in-r-and-python/)
 - [Data visualization in R](https://cambiotraining.github.io/dataviz-figdesign/index.html)
+- [calling_functions.py](https://github.com/neelsoumya/python_machine_learning/blob/main/calling_functions.py): How to call and create functions in Python
+- [dictionary.py](https://github.com/neelsoumya/python_machine_learning/blob/main/dictionary.py): Dictionaries in Python
+- [classses_objects.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/classses_objects.ipynb): Classes and objects in Python
 
 
 ### Unsupervised Learning
@@ -101,6 +101,7 @@ or
 - [data_munging_plotting.py](https://github.com/neelsoumya/python_machine_learning/blob/main/data_munging_plotting.py): Data munging and plotting
 - [gradient_descent.py](https://github.com/neelsoumya/python_machine_learning/blob/main/gradient_descent.py): Gradient descent explanation
 - [backprop.py](https://github.com/neelsoumya/python_machine_learning/blob/main/backprop.py): Backpropagation explanation
+
 
 ### Large-language models (LLMs)
 - [Introduction to LLMs](https://github.com/neelsoumya/intro_to_LMMs)
