@@ -138,7 +138,8 @@ or
 
 ## Acknowledgements
 
-Martin van Rongen, Vicki Hodgson, Hugo Tavares, Paul Fannon, Matt Castle and the Bioinformatics Facility Training Team.
+We thank Martin van Rongen, Vicki Hodgson, Hugo Tavares, Paul Fannon, Matt Castle and the Bioinformatics Facility Training Team for their support and guidance.
+
   
 
 ## 📬 Contact
