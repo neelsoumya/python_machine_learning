@@ -111,6 +111,9 @@ or
 - [Introduction to statistics](https://github.com/neelsoumya/basic_statistics)
 - [Core statistics](https://cambiotraining.github.io/corestats/)
 
+### Open source projects
+- [Open source projects](https://github.com/neelsoumya/public_open_source_data_science)
+
 
 ### Data & Utilities
 - `data/`: Folder containing data files
