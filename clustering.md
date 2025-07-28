@@ -7,7 +7,7 @@
     - [Divisive (Top‑Down)](#divisive-topdown)
     - [Dendrogram](#dendrogram)
     - [Practical](#practical)
-4. [K‑Means Clustering](#k-means-clustering)
+4. [K‑Means Clustering](#K-Means-Clustering)
     - [Algorithm Steps](#algorithm-steps)
     - [Pseudocode](#pseudocode)
     - [Pros & Cons](#pros--cons)
