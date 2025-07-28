@@ -304,7 +304,7 @@ When using **k‑means clustering**, one of the key questions is: how many clust
 
 For each choice of _k_, you run k‑means and compute the **within‑cluster sum of squares** (WCSS), also called _inertia_ or _distortion_. This is the sum of squared Euclidean distances between each point and the centroid of its cluster:
 
-¡[WCSS](images/wcss_equation.png)
+![WCSS](images/wcss_equation.png)
 
 <!--
 \[
@@ -336,7 +336,7 @@ You will get a curve that starts high at _k_ = 1 and steadily goes down as _k_ i
 
 The **elbow point** is the value of _k_ at which the decrease in WCSS “bends” most sharply—like an elbow in your arm. It balances model complexity (more clusters) against improved fit (lower WCSS).
 
-¡[An elbow point](images/elbow_point_clustering.png)
+![An elbow point](images/elbow_point_clustering.png)
 
 ---
 
