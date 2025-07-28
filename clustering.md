@@ -294,6 +294,66 @@ $$
 \bigl(x_{ij} - x_{i'j}\bigr)^{2}.
 $$
 
+### Elbow point
+
+When using **k‑means clustering**, one of the key questions is: how many clusters (k) should I choose? The **elbow method** is a simple, visual way to pick a reasonable _k_ by looking at how the “within‑cluster” variation decreases as _k_ increases.
+
+---
+
+#### 1. The Within‑Cluster Sum of Squares (WCSS)
+
+For each choice of _k_, you run k‑means and compute the **within‑cluster sum of squares** (WCSS), also called _inertia_ or _distortion_. This is the sum of squared Euclidean distances between each point and the centroid of its cluster:
+
+\[
+\text{WCSS}(k) = \sum_{i=1}^{k} \sum_{x \in C_i} \lVert x - \mu_i \rVert^2
+\]
+
+- \(C_i\) is cluster _i_  
+- \(\mu_i\) is the centroid of cluster _i_  
+
+As _k_ increases, WCSS will always decrease (or stay the same), because more centroids can only reduce distances.
+
+---
+
+#### 2. Plotting WCSS versus _k_
+
+1. **Choose a range** for _k_ (e.g. 1 to 10).  
+2. **For each _k_**, fit k‑means and record `WCSS(k)`.  
+3. **Plot** `WCSS(k)` on the _y_-axis against _k_ on the _x_-axis.  
+
+You’ll get a curve that starts high at _k_ = 1 and steadily goes down as _k_ increases.
+
+---
+
+#### 3. Identifying the “Elbow”
+
+- At first, adding clusters dramatically reduces WCSS, because you’re splitting large, heterogeneous clusters into more homogeneous groups.  
+- After some point, adding more clusters yields **diminishing returns**—each new cluster only slightly reduces WCSS.  
+
+The **elbow point** is the value of _k_ at which the decrease in WCSS “bends” most sharply—like an elbow in your arm. It balances model complexity (more clusters) against improved fit (lower WCSS).
+
+---
+
+#### 4. Why It Works—and When It Doesn’t
+
+- **Intuition**: The ideal _k_ is where extra clusters stop providing big gains in explaining variance.  
+- **Limitations**:  
+  - Sometimes the curve is very smooth (no clear bend), making the elbow ambiguous.  
+  - WCSS can keep decreasing linearly or irregularly, especially with high‑dimensional or noisy data.  
+  - It’s a heuristic—often you’ll complement it with domain knowledge or other metrics (e.g. silhouette score).
+
+---
+
+#### 5. Practical Tips
+
+- **Automate detection**: Compute the “second derivative” of the WCSS curve and pick the _k_ with the largest drop in slope.  
+- **Combine methods**: Cross‑validate with silhouette analysis, gap statistic, or clustering stability.  
+- **Visual checks**: Inspect cluster assignments on a 2D projection (PCA, t‑SNE) to ensure clusters make sense.
+
+---
+
+By using the elbow method, you gain a principled starting point for selecting _k_. From there, refine your choice with domain‑specific insights or additional validation metrics.
+
 
 ### Exercise
 
