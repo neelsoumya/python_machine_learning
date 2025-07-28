@@ -312,8 +312,8 @@ For each choice of _k_, you run k‑means and compute the **within‑cluster sum
 \]
 -->
 
-- \(C_i\) is cluster _i_  
-- \(\mu_i\) is the centroid of cluster _i_  
+- $C_{i}$ is cluster _i_  
+- $mu_{i}$ is the centroid of cluster _i_  
 
 As _k_ increases, WCSS will always decrease (or stay the same), because more centroids can only reduce distances.
 
