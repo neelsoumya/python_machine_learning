@@ -302,14 +302,16 @@ When using **k‑means clustering**, one of the key questions is: how many clust
 
 #### 1. The Within‑Cluster Sum of Squares (WCSS)
 
-For each choice of _k_, you run k‑means and compute the **within‑cluster sum of squares** (WCSS), also called _inertia_ or _distortion_. This is the sum of squared Euclidean distances between each point and the centroid of its cluster:
+For each choice of _k_, you run k‑means and compute the **within‑cluster sum of squares** (WCSS), also called _inertia_ or _distortion_. This is the sum of squared Euclidean distances between each point and the centroid of its cluster.
 
+<!--
 \[
 \text{WCSS}(k) = \sum_{i=1}^{k} \sum_{x \in C_i} \lVert x - \mu_i \rVert^2
 \]
 
 - \(C_i\) is cluster _i_  
 - \(\mu_i\) is the centroid of cluster _i_  
+-->
 
 As _k_ increases, WCSS will always decrease (or stay the same), because more centroids can only reduce distances.
 
@@ -321,20 +323,20 @@ As _k_ increases, WCSS will always decrease (or stay the same), because more cen
 2. **For each _k_**, fit k‑means and record `WCSS(k)`.  
 3. **Plot** `WCSS(k)` on the _y_-axis against _k_ on the _x_-axis.  
 
-You’ll get a curve that starts high at _k_ = 1 and steadily goes down as _k_ increases.
+You will get a curve that starts high at _k_ = 1 and steadily goes down as _k_ increases.
 
 ---
 
 #### 3. Identifying the “Elbow”
 
-- At first, adding clusters dramatically reduces WCSS, because you’re splitting large, heterogeneous clusters into more homogeneous groups.  
+- At first, adding clusters dramatically reduces WCSS, because you are splitting large, heterogeneous clusters into more homogeneous groups.  
 - After some point, adding more clusters yields **diminishing returns**—each new cluster only slightly reduces WCSS.  
 
 The **elbow point** is the value of _k_ at which the decrease in WCSS “bends” most sharply—like an elbow in your arm. It balances model complexity (more clusters) against improved fit (lower WCSS).
 
 ---
 
-#### 4. Why It Works—and When It Doesn’t
+#### 4. Why It Works—and When It Does not
 
 - **Intuition**: The ideal _k_ is where extra clusters stop providing big gains in explaining variance.  
 - **Limitations**:  
