@@ -1,20 +1,46 @@
 ## Table of Contents
 
-1. [Clustering Overview](#clustering-overview)
-2. [Hierarchical Clustering](#hierarchical-clustering)
+1. [Learning Objectives](#learning-objectives)
+2. [Clustering Overview](#clustering-overview)
+3. [Hierarchical Clustering](#hierarchical-clustering)
     - [Agglomerative (Bottom‑Up)](#agglomerative-bottomup)
     - [Divisive (Top‑Down)](#divisive-topdown)
     - [Dendrogram](#dendrogram)
     - [Practical](#practical)
-3. [K‑Means Clustering](#k-means-clustering)
+4. [K‑Means Clustering](#k-means-clustering)
     - [Algorithm Steps](#algorithm-steps)
     - [Pseudocode](#pseudocode)
     - [Pros & Cons](#pros--cons)
-4. [Choosing Between Methods](#choosing-between-methods)
+5. [Choosing Between Methods](#choosing-between-methods)
     - [Hierarchical Clustering](#hierarchical-clustering-1)
     - [K‑Means](#k-means)
-5. [References & Further Reading](#references--further-reading)
+6. [Summary](#summary)
+7. [References & Further Reading](#references--further-reading)
 
+
+## Learning Objectives
+
+By the end of this lesson, students will be able to:
+
+1. **Explain the goal and applications of clustering**  
+   - Define unsupervised learning and distinguish clustering from classification.  
+   - Cite real‑world uses (e.g., customer segmentation, anomaly detection).
+
+2. **Describe and execute hierarchical clustering methods**  
+   - Differentiate agglomerative (bottom‑up) vs. divisive (top‑down) approaches.  
+   - Compute and interpret a dendrogram.  
+   - Apply various linkage criteria (single, complete, average, Ward’s, etc.) and distance metrics (Euclidean, Manhattan, cosine).
+
+3. **Implement and analyze K‑Means clustering**  
+   - Articulate the iterative assignment–update steps and convergence conditions.  
+   - Write or follow pseudocode for K‑Means, including centroid initialization strategies (random vs. k‑means++).  
+   - Compute and interpret the within‑cluster variation objective.
+
+4. **Compare clustering techniques and select appropriately**  
+   - Identify strengths and weaknesses of hierarchical vs. K‑Means approaches.  
+   - Choose between methods based on data characteristics (number of clusters, scalability, hierarchy needs).
+
+---
 
 
 
@@ -288,6 +314,16 @@ $$
 - Requires pre-specifying $K$.
 
 ---
+
+## Summary
+
+Clustering is an unsupervised learning technique that groups data by similarity without pre‑labeled categories.
+
+- **Hierarchical clustering** builds a tree of nested clusters (agglomerative: merge closest pairs; divisive: split high‑variance clusters) and lets you “cut” the dendrogram at any level.
+- **Linkage methods** (e.g. single, complete, average, Ward’s) and **distance metrics** (Euclidean, Manhattan, cosine) control how cluster distances are computed.
+- **K‑Means** partitions into K clusters by alternating “assign each point to its nearest centroid” and “recompute centroids,” minimizing within‑cluster variance.
+- **Trade‑offs:** Hierarchical gives a full hierarchy and no need to pre‑set K but is slower on large data; K‑Means is fast and scalable but requires choosing K and can be sensitive to initialization.
+
 
 ## References & Further Reading
 
