@@ -35,6 +35,33 @@ Here is a picture I took of a pavement in Cambridge the day after Valentine's Da
 
 ![Rose after Valentine's Day](images/rose_after_valentines_day.png)
 
+Unsupervised learning is all about discovering structure in data without any explicit “right answers” to guide you. Your rose‑on‑pavement photo is a perfect real‑world illustration of a few core ideas:
+
+* Anomaly (or Outlier) Detection
+- **What happened in your brain:**  
+  When you look at a uniform grey pavement, your visual system builds an internal “model” of what’s normal—flat, texture‑repeating, monochrome. The bright red rose doesn’t fit that model, so it “pops,” drawing your attention.
+
+- **In machine learning:**  
+  Algorithms like Isolation Forests, One‑Class SVMs, or autoencoder‑based detectors learn a representation of “normal” data (e.g. patches of pavement) and then flag anything that deviates significantly (e.g. the rose) as an anomaly.
+
+* Feature Extraction & Saliency
+- **Human vision analogy:**  
+  Early in the visual cortex, neurons respond to edges, color contrasts, textures. A red circle on grey evokes strong responses in “color” and “shape‑edge” channels.
+
+- **ML counterpart:**  
+  Techniques like PCA or deep autoencoders learn low‑dimensional “features” (color histograms, texture filters). Dimensions where the rose is extreme (high red‑channel value) are exactly the ones that give us the “anomaly” score.
+
+* Clustering & Pattern Discovery
+You might not only notice the rose, but if there were lots of petals scattered around, your brain could start grouping (clustering) regions of similar color/shape.
+
+Unsupervised clustering algorithms (k‑means, DBSCAN) would partition image patches into clusters—“pavement patches,” “rose petals,” maybe even “shadows.” Anything that doesn’t belong to a big cluster may again be flagged as rare.
+
+* Dimensionality Reduction & Visualization
+In a high‑dimensional feature space (e.g. each 10×10 pixel patch → a 300‑dim vector), you can’t “see” clusters easily. Algorithms like t‑SNE or UMAP compress that down to 2D so you can actually plot and see the rose‑patches separate from pavement.
+
+This is why, for instance, visual analytics tools will show outliers as distant points on a scatterplot—just as you instantly spot the rose on the pavement.
+
+
 ### Resources
 
 [PCA intuition](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues)
