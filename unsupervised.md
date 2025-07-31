@@ -108,6 +108,11 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 - 📓 [Introduction to Unsupervised Learning](https://github.com/neelsoumya/python_machine_learning/blob/main/intro_unsupervised.md)
 
 
+## Refresher on Python
+
+- 📓 [Quick refresher on Python](https://github.com/neelsoumya/python_machine_learning/blob/main/refresher_python.ipynb)
+
+
 ## Normalization
 
 Normalization is a crucial preprocessing step in machine learning that ensures each feature contributes equally to analysis by scaling data to have a mean of 0 and a standard deviation of 1. This is especially important for algorithms sensitive to the scale of input data.
