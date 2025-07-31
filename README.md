@@ -75,6 +75,7 @@ or
 ### Python Basics
 - [Free coursera course on Python basics](https://www.coursera.org/learn/python?specialization=python)
 - [Introduction to Python Cambridge Bioinformatics Training Center](https://cambiotraining.github.io/data-analysis-in-r-and-python/)
+- [Quick refresher on Python](https://github.com/neelsoumya/python_machine_learning/blob/main/refresher_python.ipynb)
 - [Data visualization in R](https://cambiotraining.github.io/dataviz-figdesign/index.html)
 - [calling_functions.py](https://github.com/neelsoumya/python_machine_learning/blob/main/calling_functions.py): How to call and create functions in Python
 - [dictionary.py](https://github.com/neelsoumya/python_machine_learning/blob/main/dictionary.py): Dictionaries in Python
