@@ -12,4 +12,6 @@ This page contains resources for teaching supervised machine learning, including
 
 - Also see binary response logistic regression models (https://cambiotraining.github.io/stats-glm/materials/glm-practical-logistic-binary.html)
 
+- Animation of gradient descent using Vicki and Martin code see email `core_stats_slides-plot v3.qmd`
+
 More resources will be added soon!
