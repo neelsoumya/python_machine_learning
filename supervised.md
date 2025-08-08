@@ -14,4 +14,8 @@ This page contains resources for teaching supervised machine learning, including
 
 - Animation of gradient descent using Vicki and Martin code see email `core_stats_slides-plot v3.qmd`
 
+https://github.com/neelsoumya/python_machine_learning/blob/main/core-stats-slides-plots_v3.qmd
+
+Courtest Vicki Hodgson and Martin van Rongen
+
 More resources will be added soon!
