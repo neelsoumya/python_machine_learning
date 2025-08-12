@@ -18,6 +18,8 @@ https://github.com/neelsoumya/python_machine_learning/blob/main/core-stats-slide
 
 Courtesy Vicki Hodgson and Martin van Rongen
 
-https://lindeloev.github.io/tests-as-linear/
+ - https://lindeloev.github.io/tests-as-linear/
+
+- Feature Engineering and Selection for Machine Learning Models in Python. Delivered to the quality of a Level 7 postgraduate audience.  Incorporate the concepts, practical demonstrations, and relevant business insight.
 
 More resources will be added soon!
