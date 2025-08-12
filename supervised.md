@@ -16,6 +16,8 @@ This page contains resources for teaching supervised machine learning, including
 
 https://github.com/neelsoumya/python_machine_learning/blob/main/core-stats-slides-plots_v3.qmd
 
-Courtest Vicki Hodgson and Martin van Rongen
+Courtesy Vicki Hodgson and Martin van Rongen
+
+https://lindeloev.github.io/tests-as-linear/
 
 More resources will be added soon!
