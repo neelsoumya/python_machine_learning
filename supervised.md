@@ -22,4 +22,14 @@ Courtesy Vicki Hodgson and Martin van Rongen
 
 - Feature Engineering and Selection for Machine Learning Models in Python. Delivered to the quality of a Level 7 postgraduate audience.  Incorporate the concepts, practical demonstrations, and relevant business insight.
 
+[Feature selection using linear models](https://github.com/neelsoumya/python_machine_learning/blob/main/feature_engineering_linearmodels.ipynb)
+
+[Advanced feature selection](https://github.com/neelsoumya/python_machine_learning/blob/main/feature_selection.ipynb)
+
+[Business cases and projects using feature selection](https://github.com/neelsoumya/python_machine_learning/blob/main/business_cases_feature_engneering.ipynb)
+
+[ISLP code on feature selection](https://github.com/intro-stat-learning/ISLP_labs/blob/stable/Ch06-varselect-lab.ipynb)
+
+Something about feature engineering
+
 More resources will be added soon!
