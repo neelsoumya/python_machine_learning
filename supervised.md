@@ -30,6 +30,12 @@ Courtesy Vicki Hodgson and Martin van Rongen
 
 [ISLP code on feature selection](https://github.com/intro-stat-learning/ISLP_labs/blob/stable/Ch06-varselect-lab.ipynb)
 
+[Shiny app to demonstrate feature selection](https://sb2333.shinyapps.io/shiny_feature_selection/)
+
+Vicki slides to demonstrate logistic regression and gradient descent/maximum likelihood [slides](https://github.com/neelsoumya/basic_statistics/blob/master/2025_bbs-stats_VickyHodgson.pptx)
+
+
 Something about feature engineering
+
 
 More resources will be added soon!
