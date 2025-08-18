@@ -28,6 +28,8 @@ Courtesy Vicki Hodgson and Martin van Rongen
 
 [Business cases and projects using feature selection](https://github.com/neelsoumya/python_machine_learning/blob/main/business_cases_feature_engneering.ipynb)
 
+[LASSO and random forests feature importance](https://github.com/neelsoumya/python_machine_learning/blob/main/feature_selection_LASSO_trees.ipynb)
+
 [ISLP code on feature selection](https://github.com/intro-stat-learning/ISLP_labs/blob/stable/Ch06-varselect-lab.ipynb)
 
 [Shiny app to demonstrate feature selection](https://sb2333.shinyapps.io/shiny_feature_selection/)
