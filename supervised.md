@@ -39,5 +39,8 @@ Vicki slides to demonstrate logistic regression and gradient descent/maximum lik
 
 Something about feature engineering
 
+[Slides on feature engineering and feature selection](https://github.com/neelsoumya/python_machine_learning/blob/main/talk_featureselection_ML_SoumyaBanerjee.pptx)
+
+
 
 More resources will be added soon!
