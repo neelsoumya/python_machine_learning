@@ -1,0 +1,14 @@
+Package: python_machine_learning
+Title: Teaching Machine Learning in Python
+Version: 1.0.0
+Authors@R: 
+    person(given = "Soumya", family = "Neel", role = c("aut", "cre"),
+           email = "sb2333@cam.ac.uk")
+Description: 
+    This package provides a collection of machine learning algorithms, utilities, and tools implemented in Python. It is designed to help users experiment with and apply various supervised and unsupervised learning techniques, including regression, classification, clustering, and dimensionality reduction. The package is suitable for educational, research, and practical applications in data science and machine learning.
+Depends: python (>= 3.7)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/neelsoumya/python_machine_learning
+BugReports: https://github.com/neelsoumya/python_machine_learning/issues
