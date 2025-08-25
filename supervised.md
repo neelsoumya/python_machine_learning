@@ -22,24 +22,39 @@ Courtesy Vicki Hodgson and Martin van Rongen
 
 - Feature Engineering and Selection for Machine Learning Models in Python. Delivered to the quality of a Level 7 postgraduate audience.  Incorporate the concepts, practical demonstrations, and relevant business insight.
 
-[Feature selection using linear models](https://github.com/neelsoumya/python_machine_learning/blob/main/feature_engineering_linearmodels.ipynb)
+- [Feature selection using linear models](https://github.com/neelsoumya/python_machine_learning/blob/main/feature_engineering_linearmodels.ipynb)
 
-[Advanced feature selection](https://github.com/neelsoumya/python_machine_learning/blob/main/feature_selection.ipynb)
+- [Advanced feature selection](https://github.com/neelsoumya/python_machine_learning/blob/main/feature_selection.ipynb)
 
-[Business cases and projects using feature selection](https://github.com/neelsoumya/python_machine_learning/blob/main/business_cases_feature_engneering.ipynb)
+- [Business cases and projects using feature selection](https://github.com/neelsoumya/python_machine_learning/blob/main/business_cases_feature_engneering.ipynb)
 
-[LASSO and random forests feature importance](https://github.com/neelsoumya/python_machine_learning/blob/main/feature_selection_LASSO_trees.ipynb)
+- [LASSO and random forests feature importance](https://github.com/neelsoumya/python_machine_learning/blob/main/feature_selection_LASSO_trees.ipynb)
 
-[ISLP code on feature selection](https://github.com/intro-stat-learning/ISLP_labs/blob/stable/Ch06-varselect-lab.ipynb)
+- [ISLP code on feature selection](https://github.com/intro-stat-learning/ISLP_labs/blob/stable/Ch06-varselect-lab.ipynb)
 
-[Shiny app to demonstrate feature selection](https://sb2333.shinyapps.io/shiny_feature_selection/)
+- [Shiny app to demonstrate feature selection](https://sb2333.shinyapps.io/shiny_feature_selection/)
 
-Vicki slides to demonstrate logistic regression and gradient descent/maximum likelihood [slides](https://github.com/neelsoumya/basic_statistics/blob/master/2025_bbs-stats_VickyHodgson.pptx)
+- Vicki slides to demonstrate logistic regression and gradient descent/maximum likelihood [slides](https://github.com/neelsoumya/basic_statistics/blob/master/2025_bbs-stats_VickyHodgson.pptx)
 
 
-Something about feature engineering
+- Something about feature engineering
 
 [Slides on feature engineering and feature selection](https://github.com/neelsoumya/python_machine_learning/blob/main/talk_featureselection_ML_SoumyaBanerjee.pptx)
+
+
+- cross validation
+
+- sensitivity and specificity, precision and recall
+
+- AUC, AUPR
+
+- Logistic regression
+
+- ANNs talk briefly as special case of logistic regression
+
+- Decision trees
+
+- Random forests
 
 
 
