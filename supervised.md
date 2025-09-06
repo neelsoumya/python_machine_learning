@@ -56,6 +56,6 @@ Courtesy Vicki Hodgson and Martin van Rongen
 
 - Random forests
 
-
+- https://machinelearningmastery.com/10-python-one-liners-every-machine-learning-practitioner-should-know/
 
 More resources will be added soon!
