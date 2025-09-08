@@ -80,6 +80,7 @@ or
 - [calling_functions.py](https://github.com/neelsoumya/python_machine_learning/blob/main/calling_functions.py): How to call and create functions in Python
 - [dictionary.py](https://github.com/neelsoumya/python_machine_learning/blob/main/dictionary.py): Dictionaries in Python
 - [classses_objects.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/classses_objects.ipynb): Classes and objects in Python
+- 📓 [Relative path in Python and loading files](https://github.com/neelsoumya/python_machine_learning/blob/main/pandas_read_csv_paths.md)
 
 
 ### Unsupervised Learning
