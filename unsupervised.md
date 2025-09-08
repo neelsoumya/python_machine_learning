@@ -111,7 +111,7 @@ Welcome to the Applied Unsupervised Machine Learning module! This guide will hel
 ## Refresher on Python
 
 - 📓 [Quick refresher on Python](https://github.com/neelsoumya/python_machine_learning/blob/main/refresher_python.ipynb)
-
+- 📓 [Relative path in Python and loading files](https://github.com/neelsoumya/python_machine_learning/blob/main/pandas_read_csv_paths.md)
 
 ## Normalization
 
