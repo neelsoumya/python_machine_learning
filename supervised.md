@@ -14,7 +14,7 @@ This page contains resources for teaching supervised machine learning, including
 
 - [Logistic regression](https://github.com/neelsoumya/python_machine_learning/blob/main/logistic_regression_python_simple.ipynb)
 
-
+- [Practical logistic regression](https://github.com/neelsoumya/python_machine_learning/blob/main/practical_logistic_regression.md)
 
 - PRACTICAL: COMPAS data bias
 
