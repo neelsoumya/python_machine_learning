@@ -10,6 +10,8 @@ This page contains resources for teaching supervised machine learning, including
   
 - Logistic regression log odds plots (can be used to detect bias and fairness)
 
+- PRACTICAL: COMPAS data bias
+
 - Also see binary response logistic regression models (https://cambiotraining.github.io/stats-glm/materials/glm-practical-logistic-binary.html)
 
 - Animation of gradient descent using Vicki and Martin code see email `core_stats_slides-plot v3.qmd`
