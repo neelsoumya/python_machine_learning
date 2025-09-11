@@ -10,6 +10,12 @@ This page contains resources for teaching supervised machine learning, including
   
 - Logistic regression log odds plots (can be used to detect bias and fairness)
 
+- [Tutorial on logistic regression](https://github.com/neelsoumya/python_machine_learning/blob/main/logistic_intro_simple.md)
+
+- [Logistic regression](https://github.com/neelsoumya/python_machine_learning/blob/main/logistic_regression_python_simple.ipynb)
+
+
+
 - PRACTICAL: COMPAS data bias
 
 - Also see binary response logistic regression models (https://cambiotraining.github.io/stats-glm/materials/glm-practical-logistic-binary.html)
