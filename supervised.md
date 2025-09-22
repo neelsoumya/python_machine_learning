@@ -55,6 +55,7 @@ Courtesy Vicki Hodgson and Martin van Rongen
 - sensitivity and specificity, precision and recall
 
 - AUC, AUPR
+-  [ROC curve using scikit-learn](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html)
 
 - Logistic regression
 
@@ -63,6 +64,8 @@ Courtesy Vicki Hodgson and Martin van Rongen
 - Decision trees
 
 - Random forests
+
+- [Machine learning models explained visually](https://mlu-explain.github.io/)
 
 - https://machinelearningmastery.com/10-python-one-liners-every-machine-learning-practitioner-should-know/
 
