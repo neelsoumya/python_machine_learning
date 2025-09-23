@@ -6,6 +6,8 @@ This page contains resources for teaching supervised machine learning, including
 
 - [Linear Regression Example Notebook](https://github.com/neelsoumya/python_machine_learning/files/linear_regression.ipynb)
 
+- [My lecture on the bias variance tradeoff](https://www.youtube.com/watch?v=4_la9-Ehvmo)
+
 - Bias and fairness (recidivism dataset)
   
 - Logistic regression log odds plots (can be used to detect bias and fairness)
