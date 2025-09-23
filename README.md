@@ -64,6 +64,7 @@ or
 - Open a new notebook in Google Colab (https://colab.research.google.com/).
 - Run the above commands in code cells.
 - You can now open and run any of the notebooks or scripts from the repository.
+- [google Colab Notebook template](https://github.com/neelsoumya/python_machine_learning/blob/main/teaching.ipynb)
 
 **Repository link:**  
 [https://github.com/neelsoumya/python_machine_learning](https://github.com/neelsoumya/python_machine_learning)
