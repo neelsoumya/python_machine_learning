@@ -97,6 +97,7 @@ or
 
 ### Supervised Machine Learning Notebooks
 - [supervised.md](https://github.com/neelsoumya/python_machine_learning/blob/main/supervised.md): Resources for teaching supervised machine learning
+- [Teaching CNNs and neural networks](https://github.com/neelsoumya/teaching_neural_networks)
 - [teaching material for Part 2 BBS Students basics](https://github.com/neelsoumya/public_supervised_machine_learning)
 - [hiring_problem_practice.py](https://github.com/neelsoumya/python_machine_learning/blob/main/hiring_problem_practice.py): Simulating the hiring problem
 - [game_of_life.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/game_of_life.ipynb): Game of Life in Python
