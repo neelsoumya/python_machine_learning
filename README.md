@@ -119,6 +119,9 @@ or
 - [Open source projects](https://github.com/neelsoumya/public_open_source_data_science)
 
 
+### Big data analytics
+- [Course on big data analytics](https://github.com/neelsoumya/teaching_big_data_analytics)
+
 ### Data & Utilities
 - `data/`: Folder containing data files
 - `slides/`: Folder containing slides
