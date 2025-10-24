@@ -73,4 +73,6 @@ Courtesy Vicki Hodgson and Martin van Rongen
 
 - https://machinelearningmastery.com/10-python-one-liners-every-machine-learning-practitioner-should-know/
 
+- [Artificial neural networks and convolutional neural networks](https://github.com/neelsoumya/teaching_neural_networks)
+
 More resources will be added soon!
