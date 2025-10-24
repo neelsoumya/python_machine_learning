@@ -8,7 +8,9 @@ This page contains resources for teaching supervised machine learning, including
 
 - [My lecture on the bias variance tradeoff](https://www.youtube.com/watch?v=4_la9-Ehvmo)
 
-- Bias and fairness (recidivism dataset)
+- [Excellent explanation of log-likelihood](https://journals.sagepub.com/doi/10.1177/2515245917744314)
+
+- Bias and fairness (recidivism dataset, COMPAS)
   
 - Logistic regression log odds plots (can be used to detect bias and fairness)
 
