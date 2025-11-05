@@ -122,6 +122,12 @@ or
 ### Big data analytics
 - [Course on big data analytics](https://github.com/neelsoumya/teaching_big_data_analytics)
 
+
+### Continous integration and pre-commit checks
+
+- [Precommit checks in Python](https://github.com/neelsoumya/coding-test)
+
+
 ### Data & Utilities
 - `data/`: Folder containing data files
 - `slides/`: Folder containing slides
