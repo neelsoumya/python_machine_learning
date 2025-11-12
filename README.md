@@ -110,6 +110,9 @@ or
 ### Large-language models (LLMs)
 - [Introduction to LLMs](https://github.com/neelsoumya/intro_to_LMMs)
 
+### PyTorch fundamentals
+
+- [PyTorch fundamentals](https://www.coursera.org/learn/pytorch-fundamentals)
 
 ### Basic Statistics
 - [Introduction to statistics](https://github.com/neelsoumya/basic_statistics)
