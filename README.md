@@ -113,6 +113,7 @@ or
 ### PyTorch fundamentals
 
 - [PyTorch fundamentals](https://www.coursera.org/learn/pytorch-fundamentals)
+- [PyTorch teaching simple code](https://github.com/neelsoumya/teaching_intro_pytorch)
 
 ### Basic Statistics
 - [Introduction to statistics](https://github.com/neelsoumya/basic_statistics)
