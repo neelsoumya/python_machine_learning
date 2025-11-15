@@ -85,6 +85,7 @@ or
 
 
 ### Unsupervised Learning
+- [comprehensive course on unsupervised machine learning](https://cambiotraining.github.io/ml-unsupervised/)
 - [unsupervised.md](https://github.com/neelsoumya/python_machine_learning/blob/main/unsupervised.md): Resources for teaching unsupervised machine learning
 - [singlcecell_unsupervised.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/singlcecell_unsupervised.ipynb): Unsupervised ML on single-cell biological data
 - [EHR_data_unsupervised_learning.ipynb](https://github.com/neelsoumya/python_machine_learning/blob/main/EHR_data_unsupervised_learning.ipynb): Unsupervised ML on EHR data
