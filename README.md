@@ -124,6 +124,7 @@ or
 ### Capstone projects
 - [Ideas](https://github.com/complexsystemslab/project_ideas/blob/main/project_ideas.md)
 - [Projects with some code](https://github.com/neelsoumya/llm_projects)
+- [Project ideas](https://github.com/neelsoumya/llm_projects/issues)
 
 ### Open source projects
 - [Open source projects](https://github.com/neelsoumya/public_open_source_data_science)
