@@ -4,6 +4,8 @@
 
 This page contains resources for teaching supervised machine learning, including example notebooks and guides.
 
+- [Course by Andrew Ng](https://learn.deeplearning.ai/specializations/machine-learning/lesson/bw6i6/welcome-to-machine-learning!)
+
 - [Linear Regression Example Notebook](https://github.com/neelsoumya/python_machine_learning/files/linear_regression.ipynb)
 
 - [My lecture on the bias variance tradeoff](https://www.youtube.com/watch?v=4_la9-Ehvmo)
