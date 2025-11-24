@@ -23,6 +23,8 @@ Resources for teaching machine learning in Python.
 
 ## 💾 Installation
 
+[Installation instructions](https://github.com/neelsoumya/python_machine_learning/blob/main/installation.md)
+
 ```bash
 pip install -r requirements.txt
 ```
