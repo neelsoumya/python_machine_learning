@@ -66,6 +66,19 @@ or
 - You can now open and run any of the notebooks or scripts from the repository.
 - [google Colab Notebook template](https://github.com/neelsoumya/python_machine_learning/blob/main/teaching.ipynb)
 
+- Open a new notebook in [Google Colab](https://colab.research.google.com/)
+
+- If you want to run the notebooks in Colab, you can also use the _Open in Colab_ badge below:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
+
+
+- Run the commands in code cells.
+
+- You can now create notebooks and run any of the scripts in Google Colab.
+
+
+
 **Repository link:**  
 [https://github.com/neelsoumya/python_machine_learning](https://github.com/neelsoumya/python_machine_learning)
 
