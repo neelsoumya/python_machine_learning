@@ -120,6 +120,7 @@ or
 - [puzzle_number_problem.py](https://github.com/neelsoumya/python_machine_learning/blob/main/puzzle_number_problem.py): Solving a puzzle from H. Dudeney's Canterbury's Puzzles
 - [data_munging_plotting.py](https://github.com/neelsoumya/python_machine_learning/blob/main/data_munging_plotting.py): Data munging and plotting
 - [gradient_descent.py](https://github.com/neelsoumya/python_machine_learning/blob/main/gradient_descent.py): Gradient descent explanation
+- [gradient descent interactive demo](https://github.com/neelsoumya/python_machine_learning/blob/main/gradient_descent_demo.py)
 - [backprop.py](https://github.com/neelsoumya/python_machine_learning/blob/main/backprop.py): Backpropagation explanation
 
 
